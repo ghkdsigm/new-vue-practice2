@@ -1,16 +1,11 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
-    <PropsViewVue :people="people" />
+    <button @click="emitData">emit올리기</button>
   </div>
 </template>
 
 <script>
-import PropsViewVue from '@/components/common/propsView.vue';
 export default {
-  components: {
-    PropsViewVue,
-  },
   data() {
     return {
       people: [
@@ -31,6 +26,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    emitData() {
+      this.$emit('updateData', this.people);
+    },
   },
 };
 </script>

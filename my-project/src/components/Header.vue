@@ -2,8 +2,10 @@
 <template>
   <div>
     <router-link to="/">홈</router-link>
-    <router-link to="/sub01">서브1</router-link>
-    <router-link to="/sub02">서브2</router-link>
+    <router-link to="/sub01">슬롯</router-link>
+    <router-link to="/sub02">props</router-link>
+    <router-link to="/sub03">emit</router-link>
+    <router-link to="/sub04">슬롯업그레이드</router-link>
   </div>
 </template>
 
@@ -11,4 +13,9 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+a {
+  display: inline-block;
+  margin: 0 15px;
+}
+</style>
