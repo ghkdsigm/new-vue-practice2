@@ -18,5 +18,6 @@ export default {};
 a {
   display: inline-block;
   margin: 0 15px;
+  color: #fff !important;
 }
 </style>
