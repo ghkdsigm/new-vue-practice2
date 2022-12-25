@@ -6,6 +6,7 @@
     <router-link to="/sub02">props</router-link>
     <router-link to="/sub03">emit</router-link>
     <router-link to="/sub04">슬롯업그레이드</router-link>
+    <router-link to="/sub05">탭</router-link>
   </div>
 </template>
 
