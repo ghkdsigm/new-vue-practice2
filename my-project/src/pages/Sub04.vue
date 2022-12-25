@@ -55,18 +55,20 @@
         @submit="submitDialog('Image')"
       >
         <template v-slot:body>
-          <tbody>
-            <tr v-for="n in 9" :key="n" class="d-flex child-flex" cols="4">
-              <div flat tile class="d-flex">
-                <img
-                  :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-                  :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
-                  aspect-ratio="1"
-                  class="grey lighten-2"
-                />
-              </div>
-            </tr>
-          </tbody>
+          <table>
+            <tbody>
+              <tr v-for="n in 9" :key="n" class="d-flex child-flex" cols="4">
+                <div flat tile class="d-flex">
+                  <img
+                    :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
+                    :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
+                    aspect-ratio="1"
+                    class="grey lighten-2"
+                  />
+                </div>
+              </tr>
+            </tbody>
+          </table>
         </template>
       </RoroDialog>
     </div>
