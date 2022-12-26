@@ -9,6 +9,7 @@
     <router-link to="/sub05">탭</router-link>
     <router-link to="/sub06">게임셀렉트</router-link>
     <router-link to="/sub07">유효성</router-link>
+    <router-link to="/sub08">API</router-link>
   </div>
 </template>
 

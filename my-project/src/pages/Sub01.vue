@@ -2,8 +2,8 @@
 <template>
   <div>
     <div>
-      <button class="show-modal" @click="openModal">Show Modal1</button>
-      <button class="show-modal" @click="openModal2">Show Modal2</button>
+      <v-btn class="show-modal" @click="openModal" elevation="2">Show Modal1</v-btn>
+      <v-btn class="show-modal" @click="openModal2" elevation="2">Show Modal2</v-btn>
       <!-- use the modal component, pass in the prop -->
       <modal :show="showModal" :data="data" @close="closeModal">
         <template v-slot:header>

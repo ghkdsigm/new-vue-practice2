@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="emitData">emit올리기</button>
+    <v-btn @click="emitData" elevation="2">emit올리기</v-btn>
   </div>
 </template>
 

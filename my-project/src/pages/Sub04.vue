@@ -2,9 +2,9 @@
 <template>
   <div>
     <div>
-      <button class="show-modal" @click="showDialog('Text')">
+      <v-btn class="show-modal my-2" @click="showDialog('Text')" elevation="2">
         show Text dialog !
-      </button>
+      </v-btn>
       <!-- use the modal component, pass in the prop -->
       <RoroDialog
         :show1="roroTextDialog"
@@ -19,9 +19,9 @@
     </div>
 
     <div>
-      <button class="show-modal" @click="showDialog('List')">
+      <v-btn class="show-modal my-2" @click="showDialog('List')" elevation="2">
         show List dialog !
-      </button>
+      </v-btn>
       <!-- use the modal component, pass in the prop -->
       <RoroDialog
         :show2="roroListDialog"
@@ -43,9 +43,9 @@
     </div>
 
     <div>
-      <button class="show-modal" @click="showDialog('Image')">
+      <v-btn class="show-modal my-2" @click="showDialog('Image')" elevation="2">
         show Image dialog !
-      </button>
+      </v-btn>
       <!-- use the modal component, pass in the prop -->
       <RoroDialog
         :show3="roroImageDialog"

@@ -3,11 +3,11 @@
     <form @submit="formSubmit" method="post">
       <div>
         <label for="email">email</label>
-        <v-text-field id="email" type="text" v-model="email" :rules="rules" hide-details="auto"></v-text-field>
+        <v-text-field id="email" type="text" v-model="email"  hide-details="auto"></v-text-field>
       </div>
       <div>
         <label for="password">password</label>
-        <v-text-field id="password" type="text" v-model="password" :rules="rules" hide-details="auto"></v-text-field>
+        <v-text-field id="password" type="text" v-model="password" hide-details="auto"></v-text-field>
       </div>
       <button @click.prevent="formSubmit">Login</button>
     </form>
