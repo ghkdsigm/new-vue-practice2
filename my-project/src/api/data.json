@@ -1,0 +1,1104 @@
+{
+    "data": [
+        {
+            "gameSeq": 191,
+            "gameName": "거상(Gersang)"
+        },
+        {
+            "gameSeq": 1264,
+            "gameName": "검은사막(Black Desert)"
+        },
+        {
+            "gameSeq": 207,
+            "gameName": "겟앰프드(Getamped)"
+        },
+        {
+            "gameSeq": 1076,
+            "gameName": "고수온라인(Gosu)"
+        },
+        {
+            "gameSeq": 317,
+            "gameName": "구룡쟁패(Ninedragons)"
+        },
+        {
+            "gameSeq": 1549,
+            "gameName": "구미호:유혹의탑(9me5)"
+        },
+        {
+            "gameSeq": 1035,
+            "gameName": "군웅온라인(kw)"
+        },
+        {
+            "gameSeq": 291,
+            "gameName": "군주(Goonzu)"
+        },
+        {
+            "gameSeq": 646,
+            "gameName": "군주스페셜(Gzs)"
+        },
+        {
+            "gameSeq": 2973,
+            "gameName": "군타라온라인(Kuntara)"
+        },
+        {
+            "gameSeq": 394,
+            "gameName": "귀혼(Ghost)"
+        },
+        {
+            "gameSeq": 409,
+            "gameName": "그라나도에스파다(G. Espada)"
+        },
+        {
+            "gameSeq": 392,
+            "gameName": "그라센(Grasen)"
+        },
+        {
+            "gameSeq": 186,
+            "gameName": "나이트온라인(Knight Online)"
+        },
+        {
+            "gameSeq": 201,
+            "gameName": "네오다크세이버(Neo Dark Saver)"
+        },
+        {
+            "gameSeq": 333,
+            "gameName": "네오스팀(Neosteam)"
+        },
+        {
+            "gameSeq": 716,
+            "gameName": "네오온라인(Neo online)"
+        },
+        {
+            "gameSeq": 198,
+            "gameName": "네이비필드(NavyField)"
+        },
+        {
+            "gameSeq": 189,
+            "gameName": "넷마블(Net Marble)"
+        },
+        {
+            "gameSeq": 51,
+            "gameName": "노리텔(Noritel)"
+        },
+        {
+            "gameSeq": 148,
+            "gameName": "노바 1492(Nova1492)"
+        },
+        {
+            "gameSeq": 1356,
+            "gameName": "뇌천기(Loi)"
+        },
+        {
+            "gameSeq": 654,
+            "gameName": "느와르온라인(Noir online)"
+        },
+        {
+            "gameSeq": 451,
+            "gameName": "니다온라인(Nida online)"
+        },
+        {
+            "gameSeq": 978,
+            "gameName": "다크블러드(D.Blood)"
+        },
+        {
+            "gameSeq": 54,
+            "gameName": "다크에덴(Dark Eden)"
+        },
+        {
+            "gameSeq": 1602,
+            "gameName": "다크폴(Darkfall)"
+        },
+        {
+            "gameSeq": 408,
+            "gameName": "대항해시대(Dho)"
+        },
+        {
+            "gameSeq": 284,
+            "gameName": "더로드(The_Lord)"
+        },
+        {
+            "gameSeq": 1177,
+            "gameName": "던전스트라이커(DS)"
+        },
+        {
+            "gameSeq": 405,
+            "gameName": "던전앤파이터(d-fighter)"
+        },
+        {
+            "gameSeq": 1342,
+            "gameName": "데빌리언(Devilian)"
+        },
+        {
+            "gameSeq": 366,
+            "gameName": "데카론(Dekaron)"
+        },
+        {
+            "gameSeq": 922,
+            "gameName": "드라고나(Dragona)"
+        },
+        {
+            "gameSeq": 774,
+            "gameName": "드래곤네스트(DragonNest)"
+        },
+        {
+            "gameSeq": 58,
+            "gameName": "드로이얀온라인(Droiyan)"
+        },
+        {
+            "gameSeq": 1043,
+            "gameName": "디녹스(DinoX)"
+        },
+        {
+            "gameSeq": 777,
+            "gameName": "디아블로3(Diablo3)"
+        },
+        {
+            "gameSeq": 197,
+            "gameName": "디오(DO)"
+        },
+        {
+            "gameSeq": 255,
+            "gameName": "디지몬RPG(Digimon)"
+        },
+        {
+            "gameSeq": 62,
+            "gameName": "라그나로크(Ragnarok)"
+        },
+        {
+            "gameSeq": 3026,
+            "gameName": "라그나로크:제로(RAGNAROK:ZEOG)"
+        },
+        {
+            "gameSeq": 591,
+            "gameName": "라그나로크2(Ragnarok2)"
+        },
+        {
+            "gameSeq": 3587,
+            "gameName": "라그나로크오리진(ragnarokorigin)"
+        },
+        {
+            "gameSeq": 63,
+            "gameName": "라그하임(Laghaim)"
+        },
+        {
+            "gameSeq": 327,
+            "gameName": "라스트카오스(Last Chaos)"
+        },
+        {
+            "gameSeq": 813,
+            "gameName": "라임오딧세이(Lime-on)"
+        },
+        {
+            "gameSeq": 263,
+            "gameName": "라키아(Laqia)"
+        },
+        {
+            "gameSeq": 437,
+            "gameName": "라테일(Latale)"
+        },
+        {
+            "gameSeq": 377,
+            "gameName": "라펠즈(Rappelz)"
+        },
+        {
+            "gameSeq": 316,
+            "gameName": "러쉬온라인(Rush Online)"
+        },
+        {
+            "gameSeq": 65,
+            "gameName": "레드문(Red Moon)"
+        },
+        {
+            "gameSeq": 954,
+            "gameName": "레이더즈(Raiderz)"
+        },
+        {
+            "gameSeq": 558,
+            "gameName": "레이시티(Raycity)"
+        },
+        {
+            "gameSeq": 970,
+            "gameName": "레전드오브블러드(LOB)"
+        },
+        {
+            "gameSeq": 1172,
+            "gameName": "레전드오브소울즈(LS)"
+        },
+        {
+            "gameSeq": 640,
+            "gameName": "레퀴엠(Requiem)"
+        },
+        {
+            "gameSeq": 1046,
+            "gameName": "로쉬온라인(Roshonline)"
+        },
+        {
+            "gameSeq": 1950,
+            "gameName": "로스트아크(lostark)"
+        },
+        {
+            "gameSeq": 331,
+            "gameName": "로즈온라인(Roseonline)"
+        },
+        {
+            "gameSeq": 342,
+            "gameName": "로한(Rohan)"
+        },
+        {
+            "gameSeq": 2490,
+            "gameName": "로한:오리진(Rohan:Origin)"
+        },
+        {
+            "gameSeq": 3386,
+            "gameName": "로한M(RohanMobile)"
+        },
+        {
+            "gameSeq": 685,
+            "gameName": "루나온라인(Luna online)"
+        },
+        {
+            "gameSeq": 269,
+            "gameName": "루넨시아(Lunentia)"
+        },
+        {
+            "gameSeq": 403,
+            "gameName": "루니아전기(Lunia)"
+        },
+        {
+            "gameSeq": 1254,
+            "gameName": "룬오브에덴(Luneofeden)"
+        },
+        {
+            "gameSeq": 873,
+            "gameName": "룬즈오브매직(ROM)"
+        },
+        {
+            "gameSeq": 162,
+            "gameName": "리니지(Lineage)"
+        },
+        {
+            "gameSeq": 210,
+            "gameName": "리니지2(LineageII)"
+        },
+        {
+            "gameSeq": 2584,
+            "gameName": "리니지2:레볼루션(LineageII:revolution)"
+        },
+        {
+            "gameSeq": 3429,
+            "gameName": "리니지2M(Lineage2m)"
+        },
+        {
+            "gameSeq": 2583,
+            "gameName": "리니지M(lineageM)"
+        },
+        {
+            "gameSeq": 3840,
+            "gameName": "리니지W(lineageW)"
+        },
+        {
+            "gameSeq": 995,
+            "gameName": "리프트(Riftgame)"
+        },
+        {
+            "gameSeq": 196,
+            "gameName": "릴(R Y L)"
+        },
+        {
+            "gameSeq": 739,
+            "gameName": "마계촌온라인(Mgc)"
+        },
+        {
+            "gameSeq": 471,
+            "gameName": "마구마구(Ma9)"
+        },
+        {
+            "gameSeq": 249,
+            "gameName": "마비노기(Mabinogi)"
+        },
+        {
+            "gameSeq": 704,
+            "gameName": "마비노기영웅전(M.heroes)"
+        },
+        {
+            "gameSeq": 989,
+            "gameName": "마에스티아(Maestia)"
+        },
+        {
+            "gameSeq": 73,
+            "gameName": "마지막왕국(Last Kingdom)"
+        },
+        {
+            "gameSeq": 245,
+            "gameName": "메이플스토리(Maplestory)"
+        },
+        {
+            "gameSeq": 1656,
+            "gameName": "메이플스토리2(Maplestory2)"
+        },
+        {
+            "gameSeq": 76,
+            "gameName": "메틴(Metin)"
+        },
+        {
+            "gameSeq": 1065,
+            "gameName": "명품온라인(MP)"
+        },
+        {
+            "gameSeq": 1195,
+            "gameName": "모나크(Monarch)"
+        },
+        {
+            "gameSeq": 915,
+            "gameName": "무림영웅(Murimhero)"
+        },
+        {
+            "gameSeq": 836,
+            "gameName": "무림외전(Murim)"
+        },
+        {
+            "gameSeq": 1060,
+            "gameName": "뮤 BLUE(MU BLUE)"
+        },
+        {
+            "gameSeq": 80,
+            "gameName": "뮤(Mu)"
+        },
+        {
+            "gameSeq": 1559,
+            "gameName": "뮤레전드(MuLegend)"
+        },
+        {
+            "gameSeq": 2589,
+            "gameName": "뮤이그니션(muignition)"
+        },
+        {
+            "gameSeq": 429,
+            "gameName": "미끄마끄(MicMac)"
+        },
+        {
+            "gameSeq": 142,
+            "gameName": "미르의전설2(Legend of Mir II)"
+        },
+        {
+            "gameSeq": 185,
+            "gameName": "미르의전설3(Legend of Mir III)"
+        },
+        {
+            "gameSeq": 661,
+            "gameName": "미소스(Mythos)"
+        },
+        {
+            "gameSeq": 244,
+            "gameName": "믹스마스터(MixMaster)"
+        },
+        {
+            "gameSeq": 82,
+            "gameName": "바람의나라(Baram)"
+        },
+        {
+            "gameSeq": 3419,
+            "gameName": "바람의나라:연(baramY)"
+        },
+        {
+            "gameSeq": 211,
+            "gameName": "바스티안리턴즈(Vastian returns)"
+        },
+        {
+            "gameSeq": 1153,
+            "gameName": "반온라인(Vaan)"
+        },
+        {
+            "gameSeq": 723,
+            "gameName": "반지의제왕온라인(The Lord of the Ring)"
+        },
+        {
+            "gameSeq": 848,
+            "gameName": "배틀로한(BattleRohan)"
+        },
+        {
+            "gameSeq": 909,
+            "gameName": "베이무림외전(Baymurim)"
+        },
+        {
+            "gameSeq": 969,
+            "gameName": "불멸온라인(BM)"
+        },
+        {
+            "gameSeq": 1054,
+            "gameName": "불패온라인(Bullpe)"
+        },
+        {
+            "gameSeq": 251,
+            "gameName": "붉은보석(Redgem)"
+        },
+        {
+            "gameSeq": 616,
+            "gameName": "브리스톨탐험대(Bristol)"
+        },
+        {
+            "gameSeq": 287,
+            "gameName": "브이쉐어(V-Share)"
+        },
+        {
+            "gameSeq": 1113,
+            "gameName": "블레스(Bless)"
+        },
+        {
+            "gameSeq": 84,
+            "gameName": "블레오(Blreo)"
+        },
+        {
+            "gameSeq": 790,
+            "gameName": "블레이드앤소울(BLADEnSOUL)"
+        },
+        {
+            "gameSeq": 1481,
+            "gameName": "비트온라인(Beat)"
+        },
+        {
+            "gameSeq": 1726,
+            "gameName": "사육신온라인(46sin)"
+        },
+        {
+            "gameSeq": 256,
+            "gameName": "사이먼(Cymon)"
+        },
+        {
+            "gameSeq": 1124,
+            "gameName": "삼국지를품다(3P)"
+        },
+        {
+            "gameSeq": 865,
+            "gameName": "삼국지천(Three)"
+        },
+        {
+            "gameSeq": 703,
+            "gameName": "삼천온라인(3000)"
+        },
+        {
+            "gameSeq": 365,
+            "gameName": "샤이야(Shaiya)"
+        },
+        {
+            "gameSeq": 179,
+            "gameName": "서바이벌 프로젝트(Survival P.)"
+        },
+        {
+            "gameSeq": 920,
+            "gameName": "세븐소울즈(S.Souls)"
+        },
+        {
+            "gameSeq": 1044,
+            "gameName": "세븐코어(Sevencore)"
+        },
+        {
+            "gameSeq": 161,
+            "gameName": "세피로스(Sephiroth)"
+        },
+        {
+            "gameSeq": 752,
+            "gameName": "수온라인(SUonline)"
+        },
+        {
+            "gameSeq": 493,
+            "gameName": "슈팅슈퐁(Supong)"
+        },
+        {
+            "gameSeq": 537,
+            "gameName": "스키드러쉬(Skid rush)"
+        },
+        {
+            "gameSeq": 87,
+            "gameName": "스톤에이지(Stone Age)"
+        },
+        {
+            "gameSeq": 288,
+            "gameName": "시아(Xiah)"
+        },
+        {
+            "gameSeq": 254,
+            "gameName": "시티레이서(Ctracer)"
+        },
+        {
+            "gameSeq": 415,
+            "gameName": "시티오브히어로(City of Hero)"
+        },
+        {
+            "gameSeq": 91,
+            "gameName": "신영웅문x(New Hero)"
+        },
+        {
+            "gameSeq": 272,
+            "gameName": "실크로드(Silkroad)"
+        },
+        {
+            "gameSeq": 313,
+            "gameName": "십이지천(Twelvesky)"
+        },
+        {
+            "gameSeq": 709,
+            "gameName": "십이지천2(Twelvesky2)"
+        },
+        {
+            "gameSeq": 364,
+            "gameName": "싸이월드(Cyworld)"
+        },
+        {
+            "gameSeq": 410,
+            "gameName": "썬:리미티드에디션(SUN)"
+        },
+        {
+            "gameSeq": 1501,
+            "gameName": "쎈온라인(SSEN)"
+        },
+        {
+            "gameSeq": 247,
+            "gameName": "씰온라인(Seal online)"
+        },
+        {
+            "gameSeq": 1263,
+            "gameName": "아란전기(Aran Story)"
+        },
+        {
+            "gameSeq": 314,
+            "gameName": "아레스온라인(Ares Online)"
+        },
+        {
+            "gameSeq": 869,
+            "gameName": "아르고(Argo)"
+        },
+        {
+            "gameSeq": 165,
+            "gameName": "아스가르드(Asgard)"
+        },
+        {
+            "gameSeq": 1405,
+            "gameName": "아스타(ASTA)"
+        },
+        {
+            "gameSeq": 838,
+            "gameName": "아이리스온라인(IRISonline)"
+        },
+        {
+            "gameSeq": 225,
+            "gameName": "아이엠(I.M)"
+        },
+        {
+            "gameSeq": 527,
+            "gameName": "아이온(Aion)"
+        },
+        {
+            "gameSeq": 1812,
+            "gameName": "아제라(azera)"
+        },
+        {
+            "gameSeq": 1546,
+            "gameName": "아케인워즈(Arcane W)"
+        },
+        {
+            "gameSeq": 307,
+            "gameName": "아크로드(Archlord)"
+        },
+        {
+            "gameSeq": 1284,
+            "gameName": "아크로드2(Archlord2)"
+        },
+        {
+            "gameSeq": 910,
+            "gameName": "아키에이지(Archeage)"
+        },
+        {
+            "gameSeq": 683,
+            "gameName": "아틀란티카(Atlantica)"
+        },
+        {
+            "gameSeq": 1898,
+            "gameName": "애스커(asker)"
+        },
+        {
+            "gameSeq": 2585,
+            "gameName": "야생의땅:듀랑고(dugrango)"
+        },
+        {
+            "gameSeq": 99,
+            "gameName": "어둠의전설(LOD)"
+        },
+        {
+            "gameSeq": 3871,
+            "gameName": "언디셈버(undecember)"
+        },
+        {
+            "gameSeq": 1337,
+            "gameName": "에오스(EOS)"
+        },
+        {
+            "gameSeq": 3388,
+            "gameName": "에오스레드(EosRed)"
+        },
+        {
+            "gameSeq": 766,
+            "gameName": "에이지오브코난(Age of conan)"
+        },
+        {
+            "gameSeq": 729,
+            "gameName": "에이카(AIKA)"
+        },
+        {
+            "gameSeq": 158,
+            "gameName": "엔에이지(N-ageonline)"
+        },
+        {
+            "gameSeq": 1715,
+            "gameName": "엘로아(Eloa)"
+        },
+        {
+            "gameSeq": 3648,
+            "gameName": "엘리온(elyon)"
+        },
+        {
+            "gameSeq": 655,
+            "gameName": "엘소드(Elsword)"
+        },
+        {
+            "gameSeq": 235,
+            "gameName": "엠게임(M Game)"
+        },
+        {
+            "gameSeq": 273,
+            "gameName": "열혈강호(Yulgang)"
+        },
+        {
+            "gameSeq": 1074,
+            "gameName": "열혈강호2(Yulgang2)"
+        },
+        {
+            "gameSeq": 990,
+            "gameName": "영웅서유기(Westhero)"
+        },
+        {
+            "gameSeq": 330,
+            "gameName": "영웅온라인(Hero)"
+        },
+        {
+            "gameSeq": 3741,
+            "gameName": "오딘:발할라라이징(odin)"
+        },
+        {
+            "gameSeq": 1951,
+            "gameName": "오버워치(overwatch)"
+        },
+        {
+            "gameSeq": 367,
+            "gameName": "온라인삼국지(3online)"
+        },
+        {
+            "gameSeq": 174,
+            "gameName": "와우(WOW)"
+        },
+        {
+            "gameSeq": 3421,
+            "gameName": "와우:클래식(wowclassic)"
+        },
+        {
+            "gameSeq": 662,
+            "gameName": "완미세계(중지)(Wanmi)"
+        },
+        {
+            "gameSeq": 253,
+            "gameName": "요구르팅(yogurting)"
+        },
+        {
+            "gameSeq": 1210,
+            "gameName": "용온라인(YONG)"
+        },
+        {
+            "gameSeq": 1589,
+            "gameName": "용쟁호투(Dragon War)"
+        },
+        {
+            "gameSeq": 445,
+            "gameName": "용천기(DragonSky)"
+        },
+        {
+            "gameSeq": 258,
+            "gameName": "운(Un online)"
+        },
+        {
+            "gameSeq": 1022,
+            "gameName": "워렌전기(WarenStoty)"
+        },
+        {
+            "gameSeq": 962,
+            "gameName": "워베인(Warbane)"
+        },
+        {
+            "gameSeq": 987,
+            "gameName": "워오브드래곤즈(WOD)"
+        },
+        {
+            "gameSeq": 190,
+            "gameName": "위드2FC(W.Y.D 2FC)"
+        },
+        {
+            "gameSeq": 593,
+            "gameName": "이스온라인(YSonline)"
+        },
+        {
+            "gameSeq": 110,
+            "gameName": "이엑스러브(Ex Love)"
+        },
+        {
+            "gameSeq": 715,
+            "gameName": "이카루스(Icarus)"
+        },
+        {
+            "gameSeq": 1531,
+            "gameName": "이클립스온라인(Eclipseonline)"
+        },
+        {
+            "gameSeq": 248,
+            "gameName": "이터널시티(eternalcity)"
+        },
+        {
+            "gameSeq": 112,
+            "gameName": "일랜시아(Elancia)"
+        },
+        {
+            "gameSeq": 399,
+            "gameName": "제라(Zera)"
+        },
+        {
+            "gameSeq": 140,
+            "gameName": "조선협객전(Chosun)"
+        },
+        {
+            "gameSeq": 114,
+            "gameName": "조이씨티(Joy City)"
+        },
+        {
+            "gameSeq": 833,
+            "gameName": "주선온라인(JS)"
+        },
+        {
+            "gameSeq": 944,
+            "gameName": "진온라인(ZIN)"
+        },
+        {
+            "gameSeq": 1002,
+            "gameName": "징기스칸2(Khan2)"
+        },
+        {
+            "gameSeq": 1643,
+            "gameName": "차칸게임(Good)"
+        },
+        {
+            "gameSeq": 582,
+            "gameName": "창천(ChangChun)"
+        },
+        {
+            "gameSeq": 116,
+            "gameName": "천년(1000 Year)"
+        },
+        {
+            "gameSeq": 325,
+            "gameName": "천도온라인(1000do)"
+        },
+        {
+            "gameSeq": 166,
+            "gameName": "천상비(1003b)"
+        },
+        {
+            "gameSeq": 274,
+            "gameName": "천상의문(GTH)"
+        },
+        {
+            "gameSeq": 2781,
+            "gameName": "천애명월도(천애명월도)"
+        },
+        {
+            "gameSeq": 854,
+            "gameName": "천존협객전(TZ)"
+        },
+        {
+            "gameSeq": 958,
+            "gameName": "천하쟁패(Web1000)"
+        },
+        {
+            "gameSeq": 951,
+            "gameName": "칠용전설2(7th2)"
+        },
+        {
+            "gameSeq": 815,
+            "gameName": "카로스온라인(Karos)"
+        },
+        {
+            "gameSeq": 293,
+            "gameName": "카르페디엠(Carpe Diem)"
+        },
+        {
+            "gameSeq": 1063,
+            "gameName": "카발2(Cabal2)"
+        },
+        {
+            "gameSeq": 404,
+            "gameName": "카발온라인(cabal)"
+        },
+        {
+            "gameSeq": 963,
+            "gameName": "카보드온라인(kabod)"
+        },
+        {
+            "gameSeq": 3069,
+            "gameName": "카이저(kaiser  )"
+        },
+        {
+            "gameSeq": 229,
+            "gameName": "칸(Khan)"
+        },
+        {
+            "gameSeq": 292,
+            "gameName": "칼온라인(KalOnline)"
+        },
+        {
+            "gameSeq": 250,
+            "gameName": "코게임(CoGame)"
+        },
+        {
+            "gameSeq": 407,
+            "gameName": "코그온라인(Cog online)"
+        },
+        {
+            "gameSeq": 233,
+            "gameName": "코룸온라인(corum online)"
+        },
+        {
+            "gameSeq": 1293,
+            "gameName": "코어온라인(Coreonline)"
+        },
+        {
+            "gameSeq": 845,
+            "gameName": "콜오브카오스(Call of Chaos)"
+        },
+        {
+            "gameSeq": 1091,
+            "gameName": "퀸스블레이드(Queens)"
+        },
+        {
+            "gameSeq": 121,
+            "gameName": "큐플레이(Qplay)"
+        },
+        {
+            "gameSeq": 180,
+            "gameName": "크레이지아케이드(BnB)"
+        },
+        {
+            "gameSeq": 181,
+            "gameName": "크로노스(cronous)"
+        },
+        {
+            "gameSeq": 155,
+            "gameName": "크로스게이트(Cross Gate)"
+        },
+        {
+            "gameSeq": 1161,
+            "gameName": "크리티카(Kritika)"
+        },
+        {
+            "gameSeq": 1885,
+            "gameName": "클로저스(closers)"
+        },
+        {
+            "gameSeq": 3591,
+            "gameName": "킹덤:전쟁의불씨(kingdom)"
+        },
+        {
+            "gameSeq": 542,
+            "gameName": "타르타로스(Tartaros)"
+        },
+        {
+            "gameSeq": 462,
+            "gameName": "타임앤테일즈(TimeNtales)"
+        },
+        {
+            "gameSeq": 230,
+            "gameName": "탄트라(Tantra)"
+        },
+        {
+            "gameSeq": 829,
+            "gameName": "테라(Tera)"
+        },
+        {
+            "gameSeq": 127,
+            "gameName": "테일즈위버(Tales Weaver)"
+        },
+        {
+            "gameSeq": 260,
+            "gameName": "트라비아(Travia)"
+        },
+        {
+            "gameSeq": 968,
+            "gameName": "트라비아2(Travia2)"
+        },
+        {
+            "gameSeq": 1082,
+            "gameName": "트로이(Troy)"
+        },
+        {
+            "gameSeq": 1761,
+            "gameName": "트리오브세이비어(treeofsavior)"
+        },
+        {
+            "gameSeq": 240,
+            "gameName": "트릭스터AD(TricksterAD)"
+        },
+        {
+            "gameSeq": 1341,
+            "gameName": "티르온라인(Tyr)"
+        },
+        {
+            "gameSeq": 2155,
+            "gameName": "파이널판타지14(FF14)"
+        },
+        {
+            "gameSeq": 1072,
+            "gameName": "파인딩네버랜드온라인(FNO)"
+        },
+        {
+            "gameSeq": 145,
+            "gameName": "파천일검(pa1000)"
+        },
+        {
+            "gameSeq": 556,
+            "gameName": "파천일검2(PCIK2)"
+        },
+        {
+            "gameSeq": 304,
+            "gameName": "팡야(Pangya)"
+        },
+        {
+            "gameSeq": 1551,
+            "gameName": "패스오브엑자일(Path of Exile)"
+        },
+        {
+            "gameSeq": 130,
+            "gameName": "포가튼사가2(Forgaten Saga II)"
+        },
+        {
+            "gameSeq": 1447,
+            "gameName": "포스:시공의수호자(POS)"
+        },
+        {
+            "gameSeq": 577,
+            "gameName": "풍림화산(WFFM)"
+        },
+        {
+            "gameSeq": 177,
+            "gameName": "프리스톤테일(Priston Tale)"
+        },
+        {
+            "gameSeq": 535,
+            "gameName": "프리스톤테일2(Pristontale2)"
+        },
+        {
+            "gameSeq": 674,
+            "gameName": "프리우스(Prius)"
+        },
+        {
+            "gameSeq": 289,
+            "gameName": "프리프(Flyff)"
+        },
+        {
+            "gameSeq": 204,
+            "gameName": "피망(P Mang)"
+        },
+        {
+            "gameSeq": 644,
+            "gameName": "피에스타온라인(Fiestaonline)"
+        },
+        {
+            "gameSeq": 680,
+            "gameName": "피파온라인2(FIFAonline2)"
+        },
+        {
+            "gameSeq": 1220,
+            "gameName": "피파온라인3(FIFAonline3)"
+        },
+        {
+            "gameSeq": 163,
+            "gameName": "한게임(Han Game)"
+        },
+        {
+            "gameSeq": 224,
+            "gameName": "해피시티(Happy City)"
+        },
+        {
+            "gameSeq": 666,
+            "gameName": "헉슬리(Huxley)"
+        },
+        {
+            "gameSeq": 525,
+            "gameName": "헬게이트:리저렉션(Hellgate)"
+        },
+        {
+            "gameSeq": 569,
+            "gameName": "홀릭(Holic)"
+        },
+        {
+            "gameSeq": 1584,
+            "gameName": "힐링온라인(Healing)"
+        },
+        {
+            "gameSeq": 195,
+            "gameName": "A3(Project A3)"
+        },
+        {
+            "gameSeq": 3491,
+            "gameName": "A3:스틸얼라이브(A3)"
+        },
+        {
+            "gameSeq": 770,
+            "gameName": "C9(C nine)"
+        },
+        {
+            "gameSeq": 3920,
+            "gameName": "DK모바일 디오리진(DKTHEORIGIN)"
+        },
+        {
+            "gameSeq": 1064,
+            "gameName": "DK온라인(DKonlion)"
+        },
+        {
+            "gameSeq": 875,
+            "gameName": "EX3(EX3)"
+        },
+        {
+            "gameSeq": 1605,
+            "gameName": "EZ온라인(EZonline)"
+        },
+        {
+            "gameSeq": 517,
+            "gameName": "R2(Reign of revolution)"
+        },
+        {
+            "gameSeq": 3613,
+            "gameName": "R2M(R2M)"
+        },
+        {
+            "gameSeq": 299,
+            "gameName": "RF온라인(RF Online)"
+        },
+        {
+            "gameSeq": 645,
+            "gameName": "SP1(silent plot1)"
+        },
+        {
+            "gameSeq": 3450,
+            "gameName": "V4(v4)"
+        },
+        {
+            "gameSeq": 819,
+            "gameName": "Z9별(Z9)"
+        }
+    ]
+}
