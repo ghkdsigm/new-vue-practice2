@@ -226,12 +226,12 @@ export default {
 
 <style>
 .cal-high {
-  background-color: hotpink;
+  background-color: rgb(129, 129, 129);
 }
 .cal-medium {
-  background-color: lightpink;
+  background-color: rgb(165, 165, 165);
 }
 .cal-low {
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(243, 243, 243);
 }
 </style>
