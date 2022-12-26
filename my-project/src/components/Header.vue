@@ -10,6 +10,9 @@
     <router-link to="/sub06">게임셀렉트</router-link>
     <router-link to="/sub07">유효성</router-link>
     <router-link to="/sub08">API</router-link>
+    <router-link to="/sub09">vuetifyTable01</router-link>
+    <router-link to="/sub10">vuetifyTable02</router-link>
+    <router-link to="/sub11">vuetifyTable03</router-link>
   </div>
 </template>
 

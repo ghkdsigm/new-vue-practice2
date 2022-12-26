@@ -24,7 +24,7 @@
     </div>
     <div v-else>
       get받으세요
-    </div>
+    </div>    
   </div>
 </template>
 
