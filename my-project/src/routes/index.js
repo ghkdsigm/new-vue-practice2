@@ -7,6 +7,7 @@ import Sub03 from '@/pages/Sub03';
 import Sub04 from '@/pages/Sub04';
 import Sub05 from '@/pages/Sub05';
 import Sub06 from '@/pages/Sub06';
+import Sub07 from '@/pages/Sub07';
 
 Vue.use(VueRouter);
 
@@ -45,6 +46,11 @@ const routes = [
     path: '/sub06',
     name: 'sub06',
     component: Sub06,
+  },
+  {
+    path: '/sub07',
+    name: 'sub07',
+    component: Sub07,
   },
 ];
 
