@@ -17,23 +17,32 @@
             <table>
                 <colgroup>
                     <col width="200px">
-                    <col width="300px">
+                    <col width="100px">
+                    <col width="100px">
+                    <col width="100px">
+                    <col width="100px">
                 </colgroup>
                 <thead>
                     <tr>
-                        <th>게임번호</th>
-                        <th>게임명</th>
+                        <th>가격</th>
+                        <th>최소값</th>
+                        <th>최대값</th>
+                        <th>서버명</th>
+                        <th>운영여부</th>
                     </tr>
                 </thead>
                 <tbody v-if="!tableBoolean">
                     <tr>
-                        <td colspan="2">게임을 클릭해주세요</td>
+                        <td colspan="5">게임을 클릭해주세요</td>
                     </tr>
                 </tbody>
                 <tbody v-else>
-                    <tr v-for="(item, index) in tableData" :key="index" @click="selectDetailGame(item)" class="detailTd" @click.stop="drawer = !drawer">
-                        <td>{{item.gameSeq}}</td>
-                        <td>{{item.gameName}}</td>
+                    <tr v-for="(item, index) in tableDetail" :key="index" @click="selectDetailGame(item)" class="detailTd" @click.stop="drawer = !drawer">
+                        <td>{{item.basePrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '원'}}</td>
+                        <td>{{item.minPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '원'}}</td>
+                        <td>{{item.maxPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '원'}}</td>
+                        <td>{{item.serverName}}</td>
+                        <td>{{item.isRunning}}</td>
                     </tr>
                 </tbody>
             </table>
@@ -41,7 +50,7 @@
     </div>
 
     <!--drawer-->   
-    <v-navigation-drawer v-model="drawer" width="320px" height="95%" style="box-shadow: -7px 0px 15px 0px #eee" :temporary="!drawer" hide-overlay absolute right>
+    <v-navigation-drawer v-model="drawer" class="mr-5" width="320px" height="95%" style="box-shadow: -7px 0px 15px 0px #eee" :temporary="!drawer" hide-overlay absolute right>
       <v-list-item>
         <v-list-item-avatar>
           <v-img src="https://randomuser.me/api/portraits/men/78.jpg"></v-img>
@@ -74,6 +83,8 @@
 </template>
 
 <script>
+import game01 from '@/api/game01.json'
+
 export default {
     props:{
         data:Array
@@ -81,23 +92,32 @@ export default {
     data(){
         return {
             tableData:[],
+            tableDetail:[],
             tableDetailData:[],
             tableBoolean:false,
             drawer: false,
-            items: [
-                { title: 'Home', icon: 'mdi-view-dashboard' },
-                { title: 'About', icon: 'mdi-forum' },
-            ],
         }
     },
     methods:{
-        selectGame(item){ 
+        selectGame(item){                
+            this.tableDetail = []
+            game01.forEach((v)=>{
+                if(v.serverSeq === item.gameSeq) {     
+                    this.tableDetail.push(v)    
+                }
+            })
             this.drawer = false    
             this.tableData = []
-            this.tableData.push(item)      
-            this.tableBoolean = true       
+            this.tableData.push(item)
+            console.log(this.tableDetail)
+            this.tableBoolean = true     
         },
         selectDetailGame(item){
+            if(item !== ''){
+                this.drawer = false    
+            } else {
+                this.drawer = true
+            }
             this.tableDetailData = []
             this.tableDetailData.push(item)
         }
@@ -120,7 +140,7 @@ b {
     font-weight:800;
 }
 table {
-    width:500px;
+    width:600px;
     margin-top: 25px;
 }
 table td {

@@ -1,0 +1,172 @@
+[
+  {
+    "serverSeq": 207,
+    "serverName": "금강",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 500000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 191,
+    "serverName": "기타",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 207,
+    "serverName": "단종",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 300000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 1076,
+    "serverName": "문종",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 1549,
+    "serverName": "백두",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 207,
+    "serverName": "성종",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 207,
+    "serverName": "세조",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 207,
+    "serverName": "세종",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 207,
+    "serverName": "연산군",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 1342,
+    "serverName": "예종",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 2425,
+    "serverName": "인종",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 1136,
+    "serverName": "정종",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 2105,
+    "serverName": "중종",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 1135,
+    "serverName": "태조",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 1243,
+    "serverName": "태종",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 7329,
+    "serverName": "한라",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  },
+  {
+    "serverSeq": 2002,
+    "serverName": "Test",
+    "minPrice": 1000,
+    "maxPrice": 20000,
+    "basePrice": 1000000000,
+    "unit": "냥",
+    "isRunning": "서비스 중지",
+    "controlMarketPrice": 0
+  }
+]
