@@ -11,7 +11,15 @@
         <li v-for="(item, index) in bankrrupedPeople" :key="index">
           {{item.name}}
         </li>
-      </ul>
+      </ul>      
+    </div>
+    <div>      
+      <div v-for="person in activePeople" :key="person.name">
+            {{ person.name }} : {{ person.email }}  
+            <div :class="{ active: person.isActive }">
+              This is the menu option
+            </div>
+      </div>
     </div>
   </div>  
 </template>
@@ -29,20 +37,29 @@
             { name: 'john', balance: 350, isBankrruped: false },
             { name: 'justin', balance: 200, isBankrruped: true },
         ],
+        classObject: {
+          active: true,
+          'text-danger': false
+        },
+        people: [
+            { name: 'Mike Taylor', email: 'mike@example.com', isActive: true},
+            { name: 'John Carson', email: 'john@example.com', isActive: false},
+            { name: 'Peter Sanders', email: 'peter@exemple.com', isActive: true}
+        ],
       }
     },
     watch: {
       question: function(newQuestion){
         if(newQuestion !== '') this.getAnswer();
-        else this.answer = '선 질문 후 대답'
+        else this.answer = '선 질문 후 대답'        
       }
     },
     computed:{
       question2:{
-        // get: function() {
-        //   // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-        //   return this.answer2 = 'counputed에 의한 변경값'
-        // },
+        get: function() {
+          // eslint-disable-next-line vue/no-side-effects-in-computed-properties
+          return this.answer2 = ''
+        },
         set: function(data) {
           // eslint-disable-next-line vue/no-side-effects-in-computed-properties
           return this.answer2 = data
@@ -53,7 +70,10 @@
               return account.isBankrruped
           })
           return newArr
-      }    
+      },
+      activePeople() {
+          return this.people.filter((person) => person.isActive)
+      }       
     },
     methods:{
       getAnswer(){

@@ -14,6 +14,7 @@
     <router-link to="/sub10">vuetifyTable02</router-link>
     <router-link to="/sub11">vuetifyTable03</router-link>
     <router-link to="/sub12">computed&watch</router-link>
+    <router-link to="/sub13">computed</router-link>
   </div>
 </template>
 
