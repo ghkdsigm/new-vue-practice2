@@ -62,4 +62,5 @@ export default {
 <style>
   input{border:1px solid #ccc;}
   .writing {background:#ccc; color:#eee;}
+  .on {color:red;}
 </style>

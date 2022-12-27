@@ -14,6 +14,8 @@ import Sub10 from '@/pages/Sub10';
 import Sub11 from '@/pages/Sub11';
 import Sub12 from '@/pages/Sub12';
 import Sub13 from '@/pages/Sub13';
+import Sub14 from '@/pages/Sub14';
+import Sub15 from '@/pages/Sub15';
 
 Vue.use(VueRouter);
 
@@ -87,6 +89,16 @@ const routes = [
     path: '/sub13',
     name: 'sub13',
     component: Sub13,
+  },
+  {
+    path: '/sub14',
+    name: 'sub14',
+    component: Sub14,
+  },
+  {
+    path: '/sub15',
+    name: 'sub15',
+    component: Sub15,
   },
 ];
 

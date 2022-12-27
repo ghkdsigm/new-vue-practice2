@@ -15,6 +15,8 @@
     <router-link to="/sub11">vuetifyTable03</router-link>
     <router-link to="/sub12">computed&watch</router-link>
     <router-link to="/sub13">computed</router-link>
+    <router-link to="/sub14">Scoped Slots</router-link>
+    <router-link to="/sub15">Named Slots</router-link>
   </div>
 </template>
 
