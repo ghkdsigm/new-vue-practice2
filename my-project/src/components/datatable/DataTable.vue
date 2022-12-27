@@ -19,7 +19,7 @@
           :clone="onCloneCallback"
           @end="onDropCallback"
         >
-          <data-table-row-handler
+          <DataTableRowHandler
             v-for="(item, index) in props.items"
             :key="index"
             :item="item"
@@ -42,7 +42,7 @@
                   : "mdi-speedometer-slow"
               }}</v-icon>
             </template>
-          </data-table-row-handler>
+          </DataTableRowHandler>
         </draggable>
       </template>
     </v-data-table>
