@@ -17,6 +17,7 @@
     <router-link to="/sub13">computed</router-link>
     <router-link to="/sub14">Scoped Slots</router-link>
     <router-link to="/sub15">Named Slots</router-link>
+    <router-link to="/sub16">Bay API</router-link>
   </div>
 </template>
 

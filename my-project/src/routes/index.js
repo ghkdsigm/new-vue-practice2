@@ -16,6 +16,8 @@ import Sub12 from '@/pages/Sub12';
 import Sub13 from '@/pages/Sub13';
 import Sub14 from '@/pages/Sub14';
 import Sub15 from '@/pages/Sub15';
+import Sub16 from '@/pages/Sub16';
+
 
 Vue.use(VueRouter);
 
@@ -100,6 +102,11 @@ const routes = [
     name: 'sub15',
     component: Sub15,
   },
+  {
+    path: '/sub16',
+    name: 'sub16',
+    component: Sub16,
+  },
 ];
 
 // eslint-disable-next-line no-new
@@ -107,5 +114,28 @@ const router = new VueRouter({
   mode: 'history',
   routes,
 });
+
+//네비게이션 가드((뷰 라우터로 URL 접근에 대해서 처리할 수 있음)
+// router.beforeEach( async(to, from, next) => { //여기서 모든 라우팅이 대기 상태가 됨
+//   /**
+//    * to: 이동할 url 정보가 담긴 라우터 객체
+//    * from: 현재 url 정보가 담긴 라우터 객체
+//    * next: to에서 지정한 url로 이동하기 위해 꼭 호출해야 하는 함수
+//    * next() 가 호출되기 전까지 화면 전환되지 않음
+//    */
+//   if(VueCookies.get('accessToken')===null && VueCookies.get('refreshToken') !== null){
+//     //refreshToken은 있고 accessToken이 없을 경우 토큰 재발급 요청
+//     await store.dispatch('refreshToken');
+//   }
+//   if (VueCookies.get('accessToken')){
+//     //accessToken이 있을 경우 진행
+//     return next();
+//   }
+//   if(VueCookies.get('accessToken')===null && VueCookies.get('refreshToken') === null){
+//     //2개 토큰이 모두 없을 경우 로그인페이지로
+//     return next({name: 'Login'});
+//   }
+//   return next();
+// })
 
 export default router;
