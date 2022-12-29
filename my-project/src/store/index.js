@@ -1,5 +1,5 @@
-// import Vue from 'vue';
-// import Vuex from 'vuex';
+import Vue from 'vue';
+import Vuex from 'vuex';
 // import {
 //   getAuthFromCookie,
 //   getUserFromCookie,
@@ -10,36 +10,29 @@
 // } from '@/utils/cookies';
 // import { loginUser } from '@/api/auth';
 
-// Vue.use(Vuex);
+Vue.use(Vuex);
 
-// export default new Vuex.Store({
-//   state: {
-//     username: getUserFromCookie() || '',
-//     nickname: getNickFromCookie() || '',
-//     token: getAuthFromCookie() || '',
-//   },
-//   getters: {
-//     isLogin(state) {
-//       return state.username !== '';
-//     },
-//   },
-//   mutations: {
-//     setUsername(state, username) {
-//       state.username = username;
-//     },
-//     setNickname(state, nickname) {
-//       state.nickname = nickname;
-//     },
-//     clearUsername(state) {
-//       state.username = '';
-//     },
-//     setToken(state, token) {
-//       state.token = token;
-//     },
-//     clearToken(state) {
-//       state.token = '';
-//     },
-//   },
+export default new Vuex.Store({
+  state: {
+    token: '',
+    gamelist:''
+  },
+  getters: {
+    // isLogin(state) {
+    //   return state.username !== '';
+    // },
+  },
+  mutations: {    
+    setToken(state, token) {
+      state.token = token;
+    },
+    clearToken(state) {
+      state.token = '';
+    },
+    setGameList(state, games){
+      state.gamelist = games
+    }
+  },
 //   actions: {
 //     async LOGIN({ commit }, userData) {
 //       const { data } = await loginUser(userData);
@@ -54,4 +47,4 @@
 //       return data;
 //     },
 //   },
-// });
+});

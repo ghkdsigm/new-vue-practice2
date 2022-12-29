@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
     <h1>토큰발행이 완료되었습니다. 토큰을 입력하시면 게임리스트를 불러옵니다.</h1>
@@ -34,7 +35,9 @@ export default {
                     const { data } = await GetGames(this.tokenInput)
                     this.gameList = data
                     this.msg = true
-                    localStorage.setItem('token', JSON.stringify(this.tokenInput))
+                    this.$store.commit('setGameList', this.gameList)
+                    this.$store.commit('setToken', this.tokenInput)
+                    //localStorage.setItem('token', JSON.stringify(this.tokenInput))
                 } catch (error) {
                     console.log(error.response.data)
                 }
@@ -44,14 +47,14 @@ export default {
             console.log(localStorage.getItem('token'))
         }
     },
-    created(){
-        let token = localStorage.getItem('token')
-        if(token !== null){
-            this.msg = true
-        } else {
-            this.msg = false
-        }
-    }
+    // created(){
+    //     let token = localStorage.getItem('token')
+    //     if(token !== null){
+    //         this.msg = true
+    //     } else {
+    //         this.msg = false
+    //     }
+    // }
 }
 </script>
 
