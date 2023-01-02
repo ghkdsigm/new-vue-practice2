@@ -4,6 +4,7 @@
     <h1>토큰발행이 완료되었습니다. 토큰을 입력하시면 게임리스트를 불러옵니다.</h1>
     <div v-if="msg">
         <input type="text" v-model="tokenInput" />
+        <!-- <button @click="openToken">토큰불러오기</button> -->
         <button @click="inputToken">토큰입력</button>
     </div>
     <div v-else>
@@ -58,6 +59,9 @@ export default {
         // getToken(){
         //     console.log(localStorage.getItem('token'))
         // }
+        openToken(){
+            this.tokenInput = this.$store.state.token
+        }
     },
     created(){     
         this.msg = localStorage.getItem('msg')        

@@ -12,15 +12,27 @@ function SetToken(userData) {
 
 function GetGames(token) {
     return axios.get(`${api.baseURL}common/games`,{
-        headers : {Authorization:`Bearer${token}`}
+        headers : {Authorization:`Bearer ${token}`}
     });
 }
 
-function SeachGame(seqGameName) {
-    return axios.get(`${api.baseURL}common/games/${seqGameName} `);
+function SeachGame(seqGameName, token) {
+    return axios.get(`${api.baseURL}common/games/${seqGameName}`,{
+        headers : {Authorization:`Bearer ${token}`}
+    });
 }
 
-export { SetToken, GetGames, SeachGame };
+function SeachGameServer(gameSeq, token) {
+    return axios.get(`${api.baseURL}common/games/${gameSeq}/servers`,{
+        headers : {Authorization:`Bearer ${token}`}
+    });
+}
+
+function SeachGameServerSeq(gameSeq, gameServerSeq) {
+    return axios.get(`${api.baseURL}common/games/${gameSeq}/servers/${gameServerSeq} `);
+}
+
+export { SetToken, GetGames, SeachGame, SeachGameServer, SeachGameServerSeq };
 
 
 // const axiosInstance = axios.create({
