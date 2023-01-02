@@ -11,8 +11,8 @@ function SetToken(userData) {
 }
 
 function GetGames(token) {
-    return axios.get(`${api.baseURL}common/games`, {
-        headers : {Authorization : 'Bearer ' +  token}
+    return axios.get(`${api.baseURL}common/games`,{
+        headers : {Authorization:`Bearer${token}`}
     });
 }
 

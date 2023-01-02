@@ -34,6 +34,7 @@ export default {
           }
           const { data } = await SetToken(userData)
           this.msg = true
+          localStorage.setItem('msg', JSON.stringify(this.msg))
           alert(data.message)
         } catch (error) {
           alert(error.response.data.message)
@@ -46,8 +47,8 @@ export default {
     }
   },
   created(){
-    let token = localStorage.getItem('token')
-    if(token !== null){
+    let msg = localStorage.getItem('msg')
+    if(msg !== null){
         this.msg = true
     } else {
         this.msg = false
