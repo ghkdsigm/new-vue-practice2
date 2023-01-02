@@ -18,6 +18,8 @@
     <router-link to="/sub14">Scoped Slots</router-link>
     <router-link to="/sub15">Named Slots</router-link>
     <router-link to="/sub16">Bay API</router-link>
+    <router-link to="/sub17">Params</router-link>
+    <router-link to="/sub18">Paging</router-link>
   </div>
 </template>
 
@@ -29,5 +31,6 @@ a {
   display: inline-block;
   margin: 0 15px;
   color: #fff !important;
+  font-size:12px;
 }
 </style>

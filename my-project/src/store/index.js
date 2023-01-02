@@ -15,7 +15,8 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     token: '',
-    gamelist:''
+    gamelist:'',
+    game:''
   },
   getters: {
     // isLogin(state) {
@@ -31,6 +32,9 @@ export default new Vuex.Store({
     },
     setGameList(state, games){
       state.gamelist = games
+    },
+    setDetail(state, payload){
+      state.game = payload
     }
   },
 //   actions: {
