@@ -119,6 +119,7 @@ const routes = [
     path: '/sub17/:id',
     name: 'sub17detail',
     component: Sub17Detail,
+    props: true,
   },
   {
     path: '/sub18',

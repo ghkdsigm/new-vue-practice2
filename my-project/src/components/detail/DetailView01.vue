@@ -1,27 +1,30 @@
 <template>
-  <div>
-    <!-- {{dataList}} -->
-    <ul>
-      <li v-for="(item, index) in game" :key="index">
-        <span>{{item.gameName}}</span>
-        <span>{{item.gameSeq}}</span>
-      </li>
-    </ul>
+  <div>   
+    <div>
+      {{pagedata}}
+    </div>
   </div>
 </template>
 
 <script>
+import {data} from '@/api/data.json'
 export default {
   // props:{
   //   dataList:Array,
-  // }
+  // }  
   data(){
     return {
-      game:''
+      //game: this.$store.state('game')
+      pagedata:''
     }
   },
-  created(){
-    this.game = this.$store.state('game')
+  created(){    
+    const pageNum = this.$route.params.id;    
+    data.forEach(v=>{
+      if(Number(v.gameSeq) === Number(pageNum)){
+        return this.pagedata = v.gameName
+      }
+    })
   }
 }
 </script>
