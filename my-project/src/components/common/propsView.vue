@@ -15,8 +15,11 @@
             </td>
           </tr>
         </tbody>
-      </table>
+      </table>      
     </div>
+    <div>
+        {{personInfo.name}}
+      </div>
   </div>
 </template>
 
@@ -24,6 +27,7 @@
 export default {
   props: {
     people: Array,
+    personInfo:Object
   },
 };
 </script>

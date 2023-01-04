@@ -18,8 +18,10 @@ import Sub14 from '@/pages/Sub14';
 import Sub15 from '@/pages/Sub15';
 import Sub16 from '@/pages/Sub16';
 import Sub17 from '@/pages/Sub17';
-import Sub17Detail from '@/components/detail/DetailView01';
+import Sub171Detail from '@/components/detail/DetailView01';
+import Sub172Detail from '@/components/detail/DetailView02';
 import Sub18 from '@/pages/Sub18';
+import Sub19 from '@/pages/Sub19';
 
 
 Vue.use(VueRouter);
@@ -116,15 +118,25 @@ const routes = [
     component: Sub17,
   },
   {
-    path: '/sub17/:id',
-    name: 'sub17detail',
-    component: Sub17Detail,
+    path: '/sub171/:id',
+    name: 'sub171detail',
+    component: Sub171Detail,
     props: true,
   },
+  {
+    path: '/sub172/:DBSeq',
+    name: 'sub172detail',
+    component: Sub172Detail,
+  },  
   {
     path: '/sub18',
     name: 'sub18',
     component: Sub18,
+  },
+  {
+    path: '/sub19',
+    name: 'sub19',
+    component: Sub19,
   },
 ];
 

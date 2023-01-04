@@ -20,6 +20,7 @@
     <router-link to="/sub16">Bay API</router-link>
     <router-link to="/sub17">Params</router-link>
     <router-link to="/sub18">Paging</router-link>
+    <router-link to="/sub19">VuetifyTable</router-link>
   </div>
 </template>
 
