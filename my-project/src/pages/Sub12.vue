@@ -21,10 +21,18 @@
             </div>
       </div>
     </div>
+    <div>
+      <Default v-if="!activeLayout" />
+      <Sub v-else />
+      <button @click="changeLayout">레이아웃 변경</button>
+    </div>
   </div>  
 </template>
 
-<script>
+<script>  
+  import Default from '@/components/layout/Default'
+  import Sub from '@/components/layout/Sub'
+
   export default {
     data(){
       return {
@@ -46,7 +54,12 @@
             { name: 'John Carson', email: 'john@example.com', isActive: false},
             { name: 'Peter Sanders', email: 'peter@exemple.com', isActive: true}
         ],
+        layout: { name:'dafault', isActive: false}
       }
+    },
+    components:{
+      Default,
+      Sub
     },
     watch: {
       question: function(newQuestion){
@@ -73,11 +86,17 @@
       },
       activePeople() {
           return this.people.filter((person) => person.isActive)
+      },
+      activeLayout(){
+        return  this.layout.isActive === true        
       }       
     },
     methods:{
       getAnswer(){
         this.answer = this.question
+      },
+      changeLayout(){
+        this.layout.isActive = !this.layout.isActive
       }
     }
   }

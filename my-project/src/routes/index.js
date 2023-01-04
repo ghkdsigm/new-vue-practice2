@@ -22,6 +22,7 @@ import Sub171Detail from '@/components/detail/DetailView01';
 import Sub172Detail from '@/components/detail/DetailView02';
 import Sub18 from '@/pages/Sub18';
 import Sub19 from '@/pages/Sub19';
+import Sub20 from '@/pages/Sub20';
 
 
 Vue.use(VueRouter);
@@ -137,6 +138,11 @@ const routes = [
     path: '/sub19',
     name: 'sub19',
     component: Sub19,
+  },
+  {
+    path: '/sub20',
+    name: 'sub20',
+    component: Sub20,
   },
 ];
 
