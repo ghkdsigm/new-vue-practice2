@@ -23,6 +23,9 @@ import Sub172Detail from '@/components/detail/DetailView02';
 import Sub18 from '@/pages/Sub18';
 import Sub19 from '@/pages/Sub19';
 import Sub20 from '@/pages/Sub20';
+import Sub21 from '@/pages/Sub21';
+import UploadConfirm from '@/components/form/UploadConfirm';
+
 
 
 Vue.use(VueRouter);
@@ -143,6 +146,16 @@ const routes = [
     path: '/sub20',
     name: 'sub20',
     component: Sub20,
+  },
+  {
+    path: '/sub21',
+    name: 'sub21',
+    component: Sub21,
+  },
+  {
+    path: '/uploadConfirm',
+    name: 'uploadConfirm',
+    component: UploadConfirm,
   },
 ];
 

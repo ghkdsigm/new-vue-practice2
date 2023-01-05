@@ -7,21 +7,27 @@
         <span @click="setLocalStorage(local.name, local.age)">저장</span>
         <span @click="getLocalStorage(local.name)">조회</span>
         <span @click="removeLocalStorage(local.name)">삭제</span>
-        {{local01}}
+        <div style="color:red;">
+          {{local01}}
+        </div>
       </li>
       <li>
         <h3>세션스토리지</h3>
         <span @click="setSessionStorage(session.name, session.age)">저장</span>
         <span @click="getSessionStorage(session.name)">조회</span>
         <span @click="removeSessionStorage(session.name)">삭제</span>
-        {{session01}}
+        <div style="color:red;">
+          {{session01}}
+        </div>
       </li>
       <li>
         <h3>쿠키</h3>
         <span @click="setCookie(cookie.name, cookie.age)">저장</span>
         <span @click="getCookie(cookie.name)">조회</span>
         <span @click="removeCookie(cookie.name)">삭제</span>
-        {{cookie01}}
+        <div style="color:red;">
+          {{cookie01}}
+        </div>
       </li>
     </ul>
   </div>
@@ -104,5 +110,5 @@ export default {
 </script>
 
 <style>
-
+span{padding:0 5px;}
 </style>

@@ -3,8 +3,8 @@
   <div>
     <input v-model="question" />
     <input v-model="question2" />
-    <p>{{ answer }}</p>
-    <p>{{ answer2 }}</p>
+    <p><span>watch로 한거</span>{{ answer }}</p>
+    <p><span>computed로 한거</span>{{ answer2 }}</p>
     <div>
       <h1>Bankrruped</h1>
       <ul>
@@ -75,7 +75,7 @@
         },
         set: function(data) {
           // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-          return this.answer2 = data
+          return this.answer2 += data
         }
       },
       bankrrupedPeople: function () {
