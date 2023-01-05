@@ -24,3 +24,7 @@ export default {
   }),
 };
 </script>
+
+<style>
+.v-toolbar {max-width:auto;}
+</style>

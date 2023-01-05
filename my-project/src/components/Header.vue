@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div>    
-    <v-card>
+  <div style="width:100%;">    
+    <v-card style="background: transparent; box-shadow: unset;">
       <v-tabs
         background-color="transparent"
         show-arrows
@@ -85,7 +85,12 @@ a {
   display: inline-block;
   color: #fff !important;
   font-size:12px;
-      text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .v-application .transparent {
     background-color: transparent!important;
