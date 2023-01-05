@@ -12,6 +12,7 @@
         <td>{{ p.tel }}</td>
         <td>{{ p.address }}</td>
         <td>{{ p.name }}</td>
+        <td><img :src="p.photo" alt=""></td>
       </tr>
     </table>
     <!--페이징 버튼-->
@@ -73,7 +74,9 @@ export default {
       return this.listArray.slice(start, end);
     }
   },
-  
+  created(){
+    console.log(this.listArray)
+  }
 }
 </script>
 
@@ -94,8 +97,7 @@ table tr:first-of-type {
   border-top: 2px solid #404040;
 }
 table tr td {
-  padding: 1rem 0;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 .btn-cover {
   margin-top: 1.5rem;
@@ -108,5 +110,8 @@ table tr td {
 }
 .btn-cover .page-count {
   padding: 0 1rem;
+}
+img {
+  width:50px;
 }
 </style>
