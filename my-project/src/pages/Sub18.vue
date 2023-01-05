@@ -1,16 +1,39 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
-    paging
+    <h1>TABLE PAGINATION</h1>
+    <paginated-list :list-array="pageArray" />
   </div>
 </template>
 
 <script>
+import axios from 'axios'
+import PaginatedList from '@/components/orderList/PaginatedList'
 export default {
-  components:{
-    
+  name: 'simple-pagination',
+  components: {
+    PaginatedList
+  },
+  data () {
+    return {
+      pageArray: []
+    }
+  },
+  created () {
+    axios.get('http://sample.bmaster.kro.kr/contacts')
+    .then(response => {
+      this.pageArray = response.data.contacts;
+      console.log(this.pageArray.length)
+    })
+    .catch(err => {
+      console.log(err);
+    });
   }
-};
+}
 </script>
 
-<style></style>
+<style>
+h1 {
+  color: #454545;
+  text-align: center;
+}
+</style>

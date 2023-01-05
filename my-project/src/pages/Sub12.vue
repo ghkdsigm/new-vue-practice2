@@ -71,7 +71,7 @@
       question2:{
         get: function() {
           // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-          return this.answer2 = ''
+          return this.answer2
         },
         set: function(data) {
           // eslint-disable-next-line vue/no-side-effects-in-computed-properties

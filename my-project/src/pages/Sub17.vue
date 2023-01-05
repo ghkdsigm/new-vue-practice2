@@ -35,6 +35,7 @@ export default {
   created(){
     // this.dataList = data
     // console.log(this.dataList)
+    console.log(data)
   },
   methods:{
     // goDetail(game){
@@ -45,7 +46,7 @@ export default {
     // }
     goQueryDetail(game){
       this.$router.push({ name: 'sub172detail', query: {DBSeq: `${game.gameSeq}`} })
-    }
+    }    
   }
 };
 </script>
