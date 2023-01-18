@@ -75,6 +75,9 @@
         <v-tab>
           <router-link to="/sub22">mixin</router-link>
         </v-tab> 
+        <v-tab>
+          <router-link to="/sub23">CKEditor</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>
