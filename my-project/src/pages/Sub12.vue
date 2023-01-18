@@ -38,7 +38,7 @@
       return {
         question: '',
         answer: 'watch에 의한 변경값',
-        answer2: 'counputed에 의한 변경값',
+        answer2: '',
         accounts: [
             { name: 'neo', balance: 500, isBankrruped: true },
             { name: 'tak', balance: 700, isBankrruped: false },
@@ -75,7 +75,7 @@
         },
         set: function(data) {
           // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-          return this.answer2 += data
+          return this.answer2 = data
         }
       },
       bankrrupedPeople: function () {
