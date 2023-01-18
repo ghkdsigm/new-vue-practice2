@@ -72,6 +72,9 @@
         <v-tab>
           <router-link to="/sub21">file 첨부</router-link>
         </v-tab> 
+        <v-tab>
+          <router-link to="/sub22">mixin</router-link>
+        </v-tab> 
       </v-tabs>
     </v-card>
   </div>
