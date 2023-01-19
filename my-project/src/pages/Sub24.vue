@@ -5,12 +5,12 @@
       <form @submit.prevent="submit">
         <validation-provider
           rules="required|email|limit:1,14"
-          name="이메일"
+          name="이메일1"
           v-slot="{errors}"
         >
           <div>
             <label>이메일</label>
-            <input v-model="formData.email" type="text" name="이메일" value=""
+            <input v-model="formData.email" type="text" name="이메일2" value=""
                    autocomplete="off">
           </div>
           <div>
