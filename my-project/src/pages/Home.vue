@@ -134,7 +134,7 @@ export default {
 </script>
 
 <style scoped>
-.lisTable {width:50%; left:50%; transform:translateX(50%);}
+.lisTable {width:50%; left:50%; transform:translateX(50%); margin-bottom:15%;}
 .lisTable thead tr th {font-weight:500;font-size:12px;font-weight:bold;}
 .lisTable tbody tr td:nth-of-type(1) {font-weight:300;}
 .lisTable tbody tr td {font-weight:500;font-size:12px;}
