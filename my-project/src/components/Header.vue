@@ -78,6 +78,9 @@
         <v-tab>
           <router-link to="/sub23">CKEditor</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub24">vee-validator</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>

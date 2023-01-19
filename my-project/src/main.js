@@ -4,6 +4,7 @@ import router from '@/routes/index';
 import vuetify from './plugins/vuetify'
 import store from '@/store/index';
 import CKEditor4 from 'ckeditor4-vue/dist/legacy.js'
+import '@/plugins/vee-validation';
 
 Vue.use(CKEditor4).config.productionTip = false;
 
