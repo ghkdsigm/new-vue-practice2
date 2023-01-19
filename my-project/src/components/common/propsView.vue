@@ -18,7 +18,15 @@
       </table>      
     </div>
     <div>
-        {{personInfo.name}}
+        <span>
+          {{personInfo.id}}
+        </span>
+        <span>
+          {{personInfo.name}}
+        </span>
+        <span>
+          {{personInfo.age}}
+        </span>
       </div>
   </div>
 </template>

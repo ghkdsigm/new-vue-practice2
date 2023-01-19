@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
-    <PropsViewVue :people="people" :person-info="personInfo" />
+    <PropsViewVue :people="people" :person-info="personInfoData" />
   </div>
 </template>
 
@@ -30,7 +30,7 @@ export default {
           age: 20,
         },
       ],
-      personInfo: {
+      personInfoData: {
         id:1,
         name: '황승현',
         age: 24
