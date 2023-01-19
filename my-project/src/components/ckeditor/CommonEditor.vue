@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>    
-    <ckeditor v-model="editorData" :config="editorConfig"></ckeditor>
+    <ckeditor v-model="formData" :config="editorConfig"></ckeditor>
   </div>
 </template>
 
@@ -9,9 +9,28 @@
 
 export default {
   //name: 'editor', 
+  props: {
+    height: {
+      type: Number,
+      default: 450,
+    },
+    filebrowserImageUploadUrl: {
+      /*
+        - 이미지 업로드 API
+        1. 기본 : /api/common/ckeditor/upload/image
+        2. 이용안내 : /api/common/ckeditor/upload/image/guide
+      */
+      type: String,
+      default: '/api/common/ckeditor/upload/image',
+    },
+    formDataContents: {
+      type: String,
+      default: '',
+    },
+  },
   data() {
       return {
-          editorData: '<p>Content of the editor.</p>',
+          formData: this.editorData,
           editorConfig: {
             height: this.height,
             extraPlugins: 'font,colorbutton,colordialog,uploadimage,image2,basicstyles,justify',
@@ -32,7 +51,19 @@ export default {
             readOnly: this.readOnlyOption,
           },
       };
-  }
+  },
+  watch: {
+    formDataContents(value) {
+      this.formData = value
+      //console.log(this.formData)
+    },
+    formData(value) {
+      this.$emit('editorData', value)
+    },
+  },
+  created() {
+    this.formData = this.formDataContents
+  },
 };
 </script>
 

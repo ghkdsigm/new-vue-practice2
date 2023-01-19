@@ -1,49 +1,54 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>    
-    <ckeditor v-model="editorData" :config="editorConfig"></ckeditor>
+    <common-ckeditor-component :height="200" :form-data-contents="formData.contents" @editorData="getEditorContents"></common-ckeditor-component>
     <div>
-      <code>{{ editorData }}</code>
+      <!-- <code>{{ editorData }}</code> -->
     </div>
-    <button @click="emptyEditor()">초기화</button>
-    <button @click="formRegister">전송</button>
+    <!-- <button @click="emptyEditor">초기화</button> -->
+    <button @click="itemRegister">전송</button>
   </div>
 </template>
 
 <script>
+import CommonCkeditorComponent from '@/components/ckeditor/CommonEditor.vue'
 
 export default {
   //name: 'editor', 
+  components:{
+    CommonCkeditorComponent
+  },
   data() {
       return {
-          editorData: '',
-          editorConfig: {
-            height: this.height,
-            extraPlugins: 'font,colorbutton,colordialog,uploadimage,image2,basicstyles,justify',
-            removePlugins: 'image',
-            removeButtons: '',
-            filebrowserImageUploadUrl: this.filebrowserImageUploadUrl,
-            toolbar: [
-              { name: 'document', items: ['Source', '-', 'Save', 'NewPage', 'ExportPdf', 'Preview', 'Print', '-', 'Templates'] },
-              { name: 'clipboard', items: ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo'] },
-              { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript'] },
-              { name: 'paragraph', items: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote'] },
-              { name: 'align', items: ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'] },
-              { name: 'insert', items: ['Image', 'Table', 'HorizontalRule', 'SpecialChar'] },
-              { name: 'styles', items: ['Font', 'FontSize'] },
-              { name: 'colors', items: ['TextColor', 'BGColor'] },
-              { name: 'links', items: ['Link', 'Unlink', 'Anchor'] },
-            ],
-            readOnly: this.readOnlyOption,
+          formData: {
+            contents: '',
           },
+          formDataInit: {},
       };
   },
-  methods:{
-    formRegister(){
-      console.log(this.editorData)
+  methods:{   
+    // emptyEditor(){
+    //   this.editorData = '';
+    // },
+    getEditorContents(payload) {
+      this.formData.contents = payload
     },
-    emptyEditor(){
-      this.editorData = '';
+    async itemRegister() {
+      // if (this.$refs.entryForm.validate() && confirm('등록하시겠습니까?')) {
+      //   try {
+      //     if (this.editedIndex === -1) {
+      //       this.formData.contents = encodeURIComponent(this.formData.contents)
+      //       await this.$axios.post(this.api, this.formData)
+      //       alert('정상적으로 등록이 완료되었습니다.')
+      //     } else {
+      //       alert(`등록 중 오류가 발생했습니다. 비정상적인 데이터입니다. [editedIndex : ${this.editedIndex}]`)
+      //     }          
+      //   } catch (error) {
+      //     console.log(error)
+      //   }
+      // }
+      //this.formData.contents = encodeURIComponent(this.formData.contents)
+      console.log(this.formData)
     }
   }
 };
