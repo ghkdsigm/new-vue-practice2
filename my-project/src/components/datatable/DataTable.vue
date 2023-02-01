@@ -10,9 +10,9 @@
       item-key="name"
       class="elevation-1"
     >
-      <template #body="props">
+      <template #body="kk">
         <draggable
-          :list="props.items"
+          :list="kk.items"
           tag="tbody"
           :disabled="!allowDrag"
           :move="onMoveCallback"
@@ -20,13 +20,13 @@
           @end="onDropCallback"
         >
           <DataTableRowHandler
-            v-for="(item, index) in props.items"
+            v-for="(item, index) in kk.items"
             :key="index"
             :item="item"
             :headers="activeHeaders"
             :item-class="getClass(item)"
           >
-            <template #item.lock="{ item }">
+            <template #item.locked="{ item }">
               <v-icon @click="item.locked = item.locked ? false : true">{{
                 item.locked ? "mdi-pin-outline" : "mdi-pin-off-outline"
               }}</v-icon>
