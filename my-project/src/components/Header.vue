@@ -84,6 +84,12 @@
         <v-tab>
           <router-link to="/sub25">admin-event-config 예제</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub26">select</router-link>
+        </v-tab>
+        <v-tab>
+          <router-link to="/sub27">radio, checkbox 등등</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>

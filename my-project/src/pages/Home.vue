@@ -123,6 +123,14 @@ export default {
           content: 'Admin-event-config 예제',
           link: 'sub25',
         },
+        {
+          content: 'Select',
+          link: 'sub26',
+        },
+        {
+          content: 'Radio, Checkbox 등등',
+          link: 'sub27',
+        },
       ],
     };
   },

@@ -28,6 +28,8 @@ import Sub22 from '@/pages/Sub22';
 import Sub23 from '@/pages/Sub23';
 import Sub24 from '@/pages/Sub24';
 import Sub25 from '@/pages/Sub25';
+import Sub26 from '@/pages/Sub26';
+import Sub27 from '@/pages/Sub27';
 import UploadConfirm from '@/components/form/UploadConfirm';
 
 
@@ -180,6 +182,16 @@ const routes = [
     path: '/sub25',
     name: 'sub25',
     component: Sub25,
+  },
+  {
+    path: '/sub26',
+    name: 'sub26',
+    component: Sub26,
+  },
+  {
+    path: '/sub27',
+    name: 'sub27',
+    component: Sub27,
   },
 ];
 
