@@ -119,6 +119,10 @@ export default {
           content: 'Vee-validator',
           link: 'sub24',
         },
+        {
+          content: 'Admin-event-config 예제',
+          link: 'sub25',
+        },
       ],
     };
   },
