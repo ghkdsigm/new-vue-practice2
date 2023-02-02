@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div>
+  <div style="display:flex; width:80%; margin:0 auto;">
     <table class="lisTable">
       <thead>
         <tr>
@@ -15,6 +15,31 @@
           <td>{{ item.content }}</td>
           <td>
             <router-link :to="item.link">바로가기</router-link>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="lisTable">
+      <colgroup>
+        <col width="5%">
+        <col width="*">
+        <col width="10%">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Contents</th>
+          <th>시리즈여부</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(item, index) in vueUrl" :key="index">
+          <td>{{ index + 1 }}</td>
+          <td>{{ item.title }}</td>
+          <td>{{ item.series !== '' ? 'Y' : 'N' }}</td>
+          <td>
+            <a :href="item.url" target="_blank">바로가기</a>
           </td>
         </tr>
       </tbody>
@@ -132,16 +157,111 @@ export default {
           link: 'sub27',
         },
       ],
+      vueUrl:[
+        {
+          title: 'moment.js 사용 방법',
+          url: 'https://jsikim1.tistory.com/195',
+          series: ''
+        },
+        {
+          title: 'vue2 typescript',
+          url: 'https://blog.naver.com/iamswain25/222490932175',
+          series: ''
+        },
+        {
+          title: 'v-for 이용하여 radio 설정 및 v-model 데이터 관리',
+          url: 'https://hjh0827.tistory.com/70',
+          series: ''
+        },
+        {
+          title: 'vuetify example',
+          url: 'https://codepen.io/pen?editors=1010',
+          series: ''
+        },
+        {
+          title: 'vue(5) 이미지 업로드 (formData에 담아 axios로 보내기)',
+          url: 'https://devbirdfeet.tistory.com/87',
+          series: 'yes'
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: ''
+        }
+      ]
     };
   },
 };
 </script>
 
 <style scoped>
+.lisTable:nth-child(1){
+  margin-right:15px;
+}
 .lisTable {
-  width: 50%;
+  /* width: 50%;
   left: 50%;
-  transform: translateX(50%);
+  transform: translateX(50%); */
   margin-bottom: 15%;
 }
 .lisTable thead tr th {
