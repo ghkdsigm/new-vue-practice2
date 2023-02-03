@@ -19,6 +19,9 @@
                     이름
                   </th>
                   <th class="font-weight-bolder" scope="col">
+                    직업
+                  </th>
+                  <th class="font-weight-bolder" scope="col">
                     나이
                   </th>
                 </tr>
@@ -27,6 +30,9 @@
                 <tr v-for="(person, i) in people" :key="i">
                   <td>
                     {{ person.name }}
+                  </td>
+                  <td>
+                    {{ person.job }}
                   </td>
                   <td>
                     {{ person.age }}
