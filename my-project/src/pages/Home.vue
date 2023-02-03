@@ -184,8 +184,8 @@ export default {
           series: 'yes'
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '[VueJS] 엑셀 다운로드(Excel download)',
+          url: 'https://baebb.tistory.com/13',
           series: ''
         },
         {
