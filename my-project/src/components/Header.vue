@@ -90,6 +90,9 @@
         <v-tab>
           <router-link to="/sub27">radio, checkbox 등등</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub28">excel</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>
