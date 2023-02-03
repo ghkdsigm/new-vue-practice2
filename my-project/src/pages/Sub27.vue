@@ -11,6 +11,7 @@
               <th>checkbox5</th>
               <th>radio1</th>
               <th>radio2</th>
+              <th>radio3</th>
             </tr>
           </thead>
           <tbody>
@@ -97,6 +98,18 @@
                   선택한 value : {{ picked.value }}
                 </div>
               </td>
+              <td>
+                <v-radio-group v-model="searchType" row>
+                  <v-radio label="년도 통계" value="YEAR"></v-radio>
+                  <v-radio label="월별 통계" value="MONTH"></v-radio>
+                  <v-radio label="일별 통계" value="DAY"></v-radio>
+                  <v-radio label="기간별 통계" value="DAY-RANGE"></v-radio>
+                </v-radio-group>
+                <div v-show="searchType === 'YEAR'">{{this.searchType}}</div>
+                <div v-show="searchType === 'MONTH'">{{this.searchType}}</div>
+                <div v-show="searchType === 'DAY'">{{this.searchType}}</div>
+                <div v-show="searchType === 'DAY-RANGE'">{{this.searchType}}</div>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -169,6 +182,7 @@ export default {
           },
         ],
         picked: "",
+        searchType: 'DAY',
       };
     },
     methods:{    
