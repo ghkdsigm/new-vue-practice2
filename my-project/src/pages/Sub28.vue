@@ -49,13 +49,13 @@ export default {
     return {
       excel: [],
       people: [
-        { name: '유재석', age: '42' },
-        { name: '박명수', age: '44' },
-        { name: '하하', age: '34' },
-        { name: '정준하', age: '43' },
-        { name: '노홍철', age: '34' },
-        { name: '정형돈', age: '36' },
-        { name: '길', age: '36' },
+        { name: '유재석', job: '개그맨', age: '42' },
+        { name: '박명수', job: '개그맨', age: '44' },
+        { name: '하하', job: '가수', age: '34' },
+        { name: '정준하', job: '개그맨', age: '43' },
+        { name: '노홍철', job: '길거리', age: '34' },
+        { name: '정형돈', job: '개그맨', age: '36' },
+        { name: '길', job: '가수', age: '36' },
       ],
     };
   },
@@ -63,11 +63,13 @@ export default {
     excelDown() {
       for (const excel of this.people) {
         const excelLogs = {
-          이름: '',
-          나이: '',
+          name: '',
+          job: '',
+          age: '',
         };
-        excelLogs.이름 = excel.name;
-        excelLogs.나이 = excel.age;
+        excelLogs.name = excel.name;
+        excelLogs.job = excel.job;
+        excelLogs.age = excel.age;
 
         this.excel.push(excelLogs);
       }
