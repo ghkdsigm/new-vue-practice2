@@ -49,8 +49,13 @@ export default {
     return {
       excel: [],
       people: [
-        { name: '유재석', age: '13' },
-        { name: '박명수', age: '14' },
+        { name: '유재석', age: '42' },
+        { name: '박명수', age: '44' },
+        { name: '하하', age: '34' },
+        { name: '정준하', age: '43' },
+        { name: '노홍철', age: '34' },
+        { name: '정형돈', age: '36' },
+        { name: '길', age: '36' },
       ],
     };
   },
@@ -74,7 +79,7 @@ export default {
       // workbook에 워크시트 추가, 시트명은 'peopleData'
       XLSX.utils.book_append_sheet(wb, dataWS, 'peopleData');
       // 엑셀 파일을 내보낸다. 엑셀 파일 저장명은 'people.xlsx'
-      XLSX.writeFile(wb, 'people.xlsx');
+      XLSX.writeFile(wb, 'infinitychallenge.xlsx');
     },
   },
 };
