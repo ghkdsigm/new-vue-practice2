@@ -31,9 +31,8 @@ import Sub25 from '@/pages/Sub25';
 import Sub26 from '@/pages/Sub26';
 import Sub27 from '@/pages/Sub27';
 import Sub28 from '@/pages/Sub28';
+import Sub29 from '@/pages/Sub29';
 import UploadConfirm from '@/components/form/UploadConfirm';
-
-
 
 Vue.use(VueRouter);
 
@@ -138,7 +137,7 @@ const routes = [
     path: '/sub172/:DBSeq',
     name: 'sub172detail',
     component: Sub172Detail,
-  },  
+  },
   {
     path: '/sub18',
     name: 'sub18',
@@ -198,6 +197,11 @@ const routes = [
     path: '/sub28',
     name: 'sub28',
     component: Sub28,
+  },
+  {
+    path: '/sub29',
+    name: 'sub29',
+    component: Sub29,
   },
 ];
 

@@ -1,11 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div style="width:100%;">    
-    <v-card style="background: transparent; box-shadow: unset;">
-      <v-tabs
-        background-color="transparent"
-        show-arrows
-      >
+  <div style="width: 100%">
+    <v-card style="background: transparent; box-shadow: unset">
+      <v-tabs background-color="transparent" show-arrows>
         <v-tab>
           <router-link to="/">홈</router-link>
         </v-tab>
@@ -71,10 +68,10 @@
         </v-tab>
         <v-tab>
           <router-link to="/sub21">file 첨부</router-link>
-        </v-tab> 
+        </v-tab>
         <v-tab>
           <router-link to="/sub22">mixin</router-link>
-        </v-tab> 
+        </v-tab>
         <v-tab>
           <router-link to="/sub23">CKEditor</router-link>
         </v-tab>
@@ -93,19 +90,21 @@
         <v-tab>
           <router-link to="/sub28">excel</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub29">동적 class</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style>
 a {
   display: inline-block;
   color: #fff !important;
-  font-size:12px;
+  font-size: 12px;
   text-decoration: none;
   width: 100%;
   height: 100%;
@@ -114,7 +113,7 @@ a {
   justify-content: center;
 }
 .v-application .transparent {
-    background-color: transparent!important;
-    border-color: transparent!important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 </style>
