@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div style="display:flex; width:80%; margin:0 auto;">
+  <div style="display: flex; width: 80%; margin: 0 auto">
     <table class="lisTable">
       <thead>
         <tr>
@@ -21,9 +21,9 @@
     </table>
     <table class="lisTable">
       <colgroup>
-        <col width="5%">
-        <col width="*">
-        <col width="10%">
+        <col width="5%" />
+        <col width="*" />
+        <col width="10%" />
       </colgroup>
       <thead>
         <tr>
@@ -156,107 +156,115 @@ export default {
           content: 'Radio, Checkbox 등등',
           link: 'sub27',
         },
+        {
+          content: 'Excel(xlsl)',
+          link: 'sub28',
+        },
+        {
+          content: '동적 class',
+          link: 'sub29',
+        },
       ],
-      vueUrl:[
+      vueUrl: [
         {
           title: 'moment.js 사용 방법',
           url: 'https://jsikim1.tistory.com/195',
-          series: ''
+          series: '',
         },
         {
           title: 'vue2 typescript',
           url: 'https://blog.naver.com/iamswain25/222490932175',
-          series: ''
+          series: '',
         },
         {
           title: 'v-for 이용하여 radio 설정 및 v-model 데이터 관리',
           url: 'https://hjh0827.tistory.com/70',
-          series: ''
+          series: '',
         },
         {
           title: 'vuetify example',
           url: 'https://codepen.io/pen?editors=1010',
-          series: ''
+          series: '',
         },
         {
           title: 'vue(5) 이미지 업로드 (formData에 담아 axios로 보내기)',
           url: 'https://devbirdfeet.tistory.com/87',
-          series: 'yes'
+          series: 'yes',
         },
         {
           title: '[VueJS] 엑셀 다운로드(Excel download)',
           url: 'https://baebb.tistory.com/13',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
+          series: '',
         },
         {
           title: 'test',
           url: 'test',
-          series: ''
-        }
-      ]
+          series: '',
+        },
+      ],
     };
   },
 };
 </script>
 
 <style scoped>
-.lisTable:nth-child(1){
-  margin-right:15px;
+.lisTable:nth-child(1) {
+  margin-right: 15px;
 }
 .lisTable {
   /* width: 50%;
