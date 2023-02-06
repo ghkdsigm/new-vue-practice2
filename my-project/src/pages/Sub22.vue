@@ -18,7 +18,7 @@
 
       <div>
         <span>{{ count }}</span>
-        <span>{{ dod }}</span>
+        <span>{{ plus }}</span>
       </div>
     </div>
 

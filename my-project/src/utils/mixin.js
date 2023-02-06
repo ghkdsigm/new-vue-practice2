@@ -31,10 +31,11 @@ const Mixin = {
         }
     },
     computed:{
-        dod(){
+        plus(){
             let vm = this
             return vm.count > 0 ? this.monitorCount() : null
-        }
+        },
+
     },
     mounted(){
         const rountRes = setInterval(() => {
