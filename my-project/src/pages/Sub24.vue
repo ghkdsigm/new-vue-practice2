@@ -112,10 +112,10 @@ export default {
   methods: {
     submit() {
       const { validator } = this.$refs;
-      console.log(validator);
+      // console.log(validator);
  
       validator.validate().then((result) => {
-        console.log(result);
+        alert(!result ? '내용을 입력해주세요' : '승인 되었습니다.');
         if (result.valid) console.log('post api');
         else console.error('form invalid');
       });
