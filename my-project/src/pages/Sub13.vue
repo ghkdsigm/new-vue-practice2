@@ -32,6 +32,16 @@
         <span v-else>nothing to show</span>
       </template>
     </div>
+    <div>
+      <h2>computed</h2>
+      <span>{{ numbering }} </span>
+      <span>{{ changeNumbering }} </span>
+    </div>
+    <div>
+      <h2>watch</h2>
+      <span>{{ numbering2 }} </span>
+      <span>{{ calRes }} </span>
+    </div>
   </div>
 </template>
 
@@ -51,6 +61,8 @@ export default {
         { title: 'wash dishes', done: true },
         { title: 'remove thrash', done: false },
       ],
+      numbering: 0,
+      numbering2: 0,
     };
   },
   watch: {
@@ -61,6 +73,9 @@ export default {
         return (this.bt = '');
       }
     },
+    numbering2() {
+      return this.changeNum(this.numbering2)
+    }
   },
   methods: {
     getAnswer() {
@@ -68,6 +83,17 @@ export default {
     },
     plus() {
       return this.count++;
+    },
+    changeNum(val) {
+      if(val > 6){
+        this.calRes = '6도넘었음'
+      } 
+      else if (val <= 6 && val > 3){
+        this.calRes = '3이넘었음'
+      }
+      else {
+        this.calRes = '3이하임'
+      }
     },
   },
   computed: {
@@ -90,7 +116,40 @@ export default {
     hasOpenedTodos() {
       return this.needTodos.length > 0;
     },
+    changeNumbering(){
+      // return this.numbering > 3 ? '3이넘었음' : '3이 넘지않았음'
+
+      const vm = this;
+      function calc(){
+        let ress = ''
+        if(vm.numbering > 6){
+          ress =  '6도넘었음'
+        } else if(vm.numbering <= 6 && vm.numbering > 3){
+          ress =  '3이넘었음'
+        } else {
+          ress =  '3이하임'
+        }
+        return ress
+      }
+
+      return calc()
+    }
   },
+  mounted(){
+    const setinerval = setInterval(()=>{
+      this.numbering++
+    },1500)
+    setTimeout(() => {
+      clearInterval(setinerval)
+    }, 15000);
+
+    const setinerval2 = setInterval(()=>{
+      this.numbering2++
+    },1500)
+    setTimeout(() => {
+      clearInterval(setinerval2)
+    }, 15000);    
+  }
 };
 </script>
 
