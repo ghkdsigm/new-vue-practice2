@@ -164,6 +164,10 @@ export default {
           content: '동적 class',
           link: 'sub29',
         },
+        {
+          content: 'vuetify 팝업',
+          link: 'sub30',
+        },
       ],
       vueUrl: [
         {
