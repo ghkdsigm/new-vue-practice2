@@ -15,11 +15,16 @@
         </span>
         <button @click="toggleAction">토글클릭</button>        
       </div>
+
+      <div>
+        <span>{{ count }}</span>
+        <span>{{ dod }}</span>
+      </div>
     </div>
 
-    <div>
+    <!-- <div>
       <router-view />
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -31,13 +36,12 @@ export default {
   mixins: [Mixin],
   data() {
     return {
-      changeData: false
+      changeData: false,
+      count:0
     };
   },
   methods: {
-    toggleAction(){
-      this.changeData = !this.changeData
-    }
+    
   },
 };
 </script>
