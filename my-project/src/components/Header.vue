@@ -93,6 +93,9 @@
         <v-tab>
           <router-link to="/sub29">동적 class</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub30">vuetify 팝업</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>
