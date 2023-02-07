@@ -168,6 +168,10 @@ export default {
           content: 'vuetify 팝업',
           link: 'sub30',
         },
+        {
+          content: 'ckeditor2',
+          link: 'sub31',
+        },
       ],
       vueUrl: [
         {

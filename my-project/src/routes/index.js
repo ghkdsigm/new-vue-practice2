@@ -33,6 +33,7 @@ import Sub27 from '@/pages/Sub27';
 import Sub28 from '@/pages/Sub28';
 import Sub29 from '@/pages/Sub29';
 import Sub30 from '@/pages/Sub30';
+import Sub31 from '@/pages/Sub31';
 import UploadConfirm from '@/components/form/UploadConfirm';
 
 Vue.use(VueRouter);
@@ -208,6 +209,11 @@ const routes = [
     path: '/sub30',
     name: 'sub30',
     component: Sub30,
+  },
+  {
+    path: '/sub31',
+    name: 'sub31',
+    component: Sub31,
   },
 ];
 
