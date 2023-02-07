@@ -209,28 +209,28 @@ export default {
           series: '',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '활용도가 높아지는 웹 프론트엔드 언어, 타입스크립트(TypeScript)',
+          url: 'https://www.samsungsds.com/kr/insights/typescript.html',
           series: '',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '빠르게 마스터하는 타입스크립트',
+          url: 'https://codingapple.com/course/typescript-crash-course/',
           series: '',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'Vue.js $watch 오브젝트 변경 모니터링(감시) 사용법',
+          url: 'https://codingcoding.tistory.com/337',
           series: '',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'Vue2 + TypeScript 시작하기',
+          url: 'https://velog.io/@integer/Vue2-TypeScript-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0',
           series: '',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '[Vue.js] Vue.js 2.x 버전 Typescript 적용하기',
+          url: 'https://hi-today-yun12.tistory.com/32',
           series: '',
         },
         {
