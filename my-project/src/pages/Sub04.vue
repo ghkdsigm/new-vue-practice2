@@ -72,6 +72,9 @@
         </template>
       </RoroDialog>
     </div>
+    <button @click="changeVariableDataValue1()">첫번째변경</button>
+    <button @click="changeVariableDataValue2()">두번째변경</button>
+    {{variableDataValue === true ? '실행되었습니다.' : '취소되었습니다.'}}
   </div>
 </template>
 
@@ -87,6 +90,7 @@ export default {
       roroTextDialog: false,
       roroListDialog: false,
       roroImageDialog: false,
+      variableDataValue: false,
       item: 1,
       items: [{ text: '피자' }, { text: '라떼' }, { text: '짜글이' }],
     };
@@ -102,6 +106,12 @@ export default {
       console.log('submit 완료!');
       this.hideDialog(type);
     },
+    changeVariableDataValue1(){
+      this[`variableDataValue`] = true 
+    },
+    changeVariableDataValue2(){
+      this[`variableDataValue`] = false 
+    }
   },
 };
 </script>
