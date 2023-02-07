@@ -24,6 +24,7 @@
       <Sub v-else />
       <button @click="changeLayout">레이아웃 변경</button>
     </div>
+    <button @click="changeObj">zz</button>
   </div>
 </template>
 
@@ -53,6 +54,12 @@ export default {
         { name: 'Peter Sanders', email: 'peter@exemple.com', isActive: true },
       ],
       layout: { name: 'dafault', isActive: false },
+      someObj: {
+        a: 'obj-a',
+        b: 'obj-b',
+        c: 'obj-c'
+      },
+      count: 0
     };
   },
   components: {
@@ -64,6 +71,9 @@ export default {
       if (newQuestion !== '') this.getAnswer();
       else this.answer = '선 질문 후 대답';
     },
+    'someObj.a': function(val){
+      console.log('someObj.a changed')
+    }
   },
   computed: {
     question2: {
@@ -87,7 +97,7 @@ export default {
     },
     activeLayout() {
       return this.layout.isActive === true;
-    },
+    }    
   },
   methods: {
     getAnswer() {
@@ -96,6 +106,9 @@ export default {
     changeLayout() {
       this.layout.isActive = !this.layout.isActive;
     },
+    changeObj(){
+      this.someObj.a = 'obj-aa' + this.count++
+    }
   },
 };
 </script>
