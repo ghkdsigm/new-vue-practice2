@@ -234,8 +234,8 @@ export default {
           series: '',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'ToDoList-vue-ts(vue2+ts/vue3+ts) github 사이트',
+          url: 'https://github.com/jongik96/ToDoList-vue-ts/tree/master',
           series: '',
         },
         {
