@@ -43,7 +43,7 @@ const Mixin = {
         }, 1000);
         setTimeout(()=>{
             clearInterval(rountRes)
-        },10000)
+        }, 10000)
     }
 };
 

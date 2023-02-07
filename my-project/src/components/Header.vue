@@ -99,6 +99,9 @@
         <v-tab>
           <router-link to="/sub31">ckeditor2</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub32">upload</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>

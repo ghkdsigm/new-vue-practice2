@@ -172,6 +172,10 @@ export default {
           content: 'ckeditor2',
           link: 'sub31',
         },
+        {
+          content: 'upload',
+          link: 'sub32',
+        },
       ],
       vueUrl: [
         {
