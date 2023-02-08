@@ -269,13 +269,13 @@ export default {
         {
           title: 'vue 기본문법 총정리',
           url: 'https://cjw-awdsd.tistory.com/33',
-          series: 'yes',
+          series: '',
           type:'vue',
         },
         {
           title: 'vue + ts 총정리 블로그',
           url: 'https://kyounghwan01.github.io/blog/TS/Vue/grammer/#data',
-          series: '',
+          series: 'yes',
           type:'vue+ts',
         },
         {
