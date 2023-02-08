@@ -273,20 +273,22 @@ export default {
           type:'vue',
         },
         {
-          title: 'vue + ts 총정리 블로그',
+          title: 'vue + ts 총정리 블로그(클래스형태)',
           url: 'https://kyounghwan01.github.io/blog/TS/Vue/grammer/#data',
           series: 'yes',
           type:'vue+ts',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'Typescript는 어떻게 공부해야 하나요?',
+          url: 'https://velog.io/@teo/typescript',
           series: '',
+          type:'ts',
         },
         {
           title: 'test',
           url: 'test',
           series: '',
+          type:'',
         },
       ],
     };
