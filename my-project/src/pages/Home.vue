@@ -22,12 +22,15 @@
     <table class="lisTable">
       <colgroup>
         <col width="5%" />
+        <col width="8%" />
         <col width="*" />
+        <col width="10%" />
         <col width="10%" />
       </colgroup>
       <thead>
         <tr>
           <th>No</th>
+          <th>Type</th>
           <th>Contents</th>
           <th>시리즈여부</th>
           <th>Link</th>
@@ -36,6 +39,7 @@
       <tbody>
         <tr v-for="(item, index) in vueUrl" :key="index">
           <td>{{ index + 1 }}</td>
+          <td style="font-size:12px">{{ item.type }}</td>
           <td>{{ item.title }}</td>
           <td>{{ item.series !== '' ? 'Y' : 'N' }}</td>
           <td>
@@ -182,76 +186,91 @@ export default {
           title: 'moment.js 사용 방법',
           url: 'https://jsikim1.tistory.com/195',
           series: '',
+          type:'js',
         },
         {
           title: 'vue2 typescript',
           url: 'https://blog.naver.com/iamswain25/222490932175',
           series: '',
+          type:'ts',
         },
         {
           title: 'v-for 이용하여 radio 설정 및 v-model 데이터 관리',
           url: 'https://hjh0827.tistory.com/70',
           series: '',
+          type:'vue2',
         },
         {
           title: 'vuetify example',
           url: 'https://codepen.io/pen?editors=1010',
           series: '',
+          type:'vue2',
         },
         {
           title: 'vue(5) 이미지 업로드 (formData에 담아 axios로 보내기)',
           url: 'https://devbirdfeet.tistory.com/87',
           series: 'yes',
+          type:'vue2',
         },
         {
           title: '[VueJS] 엑셀 다운로드(Excel download)',
           url: 'https://baebb.tistory.com/13',
           series: '',
+          type:'vue2',
         },
         {
           title: '활용도가 높아지는 웹 프론트엔드 언어, 타입스크립트(TypeScript)',
           url: 'https://www.samsungsds.com/kr/insights/typescript.html',
           series: '',
+          type:'ts',
         },
         {
           title: '빠르게 마스터하는 타입스크립트',
           url: 'https://codingapple.com/course/typescript-crash-course/',
           series: '',
+          type:'ts',
         },
         {
           title: 'Vue.js $watch 오브젝트 변경 모니터링(감시) 사용법',
           url: 'https://codingcoding.tistory.com/337',
           series: '',
+          type:'vue',
         },
         {
           title: 'Vue2 + TypeScript 시작하기',
           url: 'https://velog.io/@integer/Vue2-TypeScript-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0',
           series: '',
+          type:'vue2+ts',
         },
         {
           title: '[Vue.js] Vue.js 2.x 버전 Typescript 적용하기',
           url: 'https://hi-today-yun12.tistory.com/32',
           series: '',
+          type:'vue2+ts',
         },
         {
           title: 'ToDoList-vue-ts(vue2+ts/vue3+ts) github 사이트',
           url: 'https://github.com/jongik96/ToDoList-vue-ts/tree/master',
           series: '',
+          type:'vue+ts',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'TypeScript Handbook 정리2 - Everyday Types',
+          url: 'https://msyu1207.tistory.com/entry/TypeScript-Handbook-%EC%A0%95%EB%A6%AC2-Everyday-Types#toc-%F0%9F%9F%A2%20The%20primitives%20(%EC%9B%90%EC%8B%9C%20%ED%83%80%EC%9E%85):%20string,%20number,%20boolean',
           series: '',
+          type:'ts',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '[Vue.js] Vue.js 실무 프로젝트에 적용하면 좋은 내용 정리',
+          url: 'https://jess2.xyz/vue/vue-tip/',
           series: '',
+          type:'vue',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'vue 기본문법 총정리',
+          url: 'https://cjw-awdsd.tistory.com/33',
           series: '',
+          type:'vue',
         },
         {
           title: 'test',
