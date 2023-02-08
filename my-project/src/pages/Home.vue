@@ -273,9 +273,10 @@ export default {
           type:'vue',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'vue + ts 총정리 블로그',
+          url: 'https://kyounghwan01.github.io/blog/TS/Vue/grammer/#data',
           series: '',
+          type:'vue+ts',
         },
         {
           title: 'test',
