@@ -269,7 +269,7 @@ export default {
         {
           title: 'vue 기본문법 총정리',
           url: 'https://cjw-awdsd.tistory.com/33',
-          series: '',
+          series: 'yes',
           type:'vue',
         },
         {
