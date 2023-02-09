@@ -40,7 +40,31 @@
       <textarea  v-model="inputText"></textarea>
     </div>
 
-
+    <div>
+      <div>
+        *본 기준은 30세이상 미혼 단독 세대주 기준인점을 참고하세요
+      </div>
+      <div>
+        <label for="house">부동산 </label>
+        <input v-model="housePrice" type="text" id="house" ref="houses"/>
+        <span>{{priceToString(housePrice) + '원'}}</span>
+      </div>
+      <!-- <div>
+        <input v-model="inputPrice" type="text">
+      </div>
+      <div>
+        <input v-model="rendedPrice" type="text">
+      </div> -->
+      <div>
+        LTV(80%) = {{ priceToString(sum2) + '원'}}
+      </div>
+      <div>
+        디딤돌2억 빼고 받아야할 보금자리론 = {{ housePrice === 0 ? '' : priceToString(result) + '원' }}
+      </div>
+      <div>
+        매물 대비 필요 현금 = {{ housePrice === 0 ? '' : '' + priceToString(truthPrice) + '원' }}
+      </div>
+    </div>
   </div>
 </template>
 
@@ -79,6 +103,9 @@ export default {
       //합계파트
       price: 100,
       newcount: 1,
+      housePrice: '',
+      inputPrice: 0,
+      rendedPrice: 0,
       //실시간텍스트
       forbiddenText: '안되',
       inputText: '오늘은 날씨가 좋습니다.'
@@ -135,7 +162,17 @@ export default {
     },
     taxIncluded: function() {
       return this.sum * 1.08;
-    }    
+    },
+    //ltv
+    sum2(){
+      return this.housePrice * 0.8;
+    },    
+    result(){
+      return this.sum2 - 200000000
+    },
+    truthPrice(){
+      return this.housePrice - this.sum2
+    }
   },
   methods: {
     getAnswer() {
@@ -146,8 +183,25 @@ export default {
     },
     changeObj(){
       this.someObj.a = 'obj-aa' + this.count++
+    },
+    priceToString(price) {
+      return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
     }
   },
+  mounted(){
+    //인풋에 다이렉트로 콤마 세개 붙이기
+    // let input = this.$refs.houses
+    // input.addEventListener('keyup', function(e) {
+    //   let value = e.target.value;
+    //   value = Number(value.replaceAll(',', ''));
+    //   if(isNaN(value)) {
+    //     input.value = 0;
+    //   }else {
+    //     const formatValue = value.toLocaleString('ko-KR');
+    //     input.value = formatValue;
+    //   }
+    // })
+  }
 };
 </script>
 

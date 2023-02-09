@@ -298,7 +298,7 @@ export default {
           title: '[TypeScript] 타입스크립트란? 기본 공부하기',
           url: 'https://rrecoder.tistory.com/142',
           series: '',
-          type:'',
+          type:'ts',
         },
         {
           title: 'test',
