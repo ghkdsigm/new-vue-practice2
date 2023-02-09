@@ -184,6 +184,10 @@ export default {
           content: 'slider',
           link: 'sub33',
         },
+        {
+          content: 'tree',
+          link: 'sub34',
+        },
       ],
       vueUrl: [
         {
@@ -301,10 +305,10 @@ export default {
           type:'ts',
         },
         {
-          title: 'test',
-          url: 'test',
-          series: '',
-          type:'',
+          title: 'vue board 만들기 + 댓글 등등',
+          url: 'https://velog.io/@hi_young?tag=vue',
+          series: 'yes',
+          type:'vue',
         },
         {
           title: 'test',
