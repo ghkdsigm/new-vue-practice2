@@ -6,7 +6,7 @@
     <p><span>watch로 한거</span>{{ answer }}</p>
     <p><span>computed로 한거</span>{{ answer2 }}</p>
     <div>
-      <h1>Bankrruped</h1>
+      <h5>Bankrruped</h5>
       <ul>
         <li v-for="(item, index) in bankrrupedPeople" :key="index">
           {{ item.name }}
@@ -46,8 +46,8 @@
       </div>
       <div>
         <label for="house">부동산 </label>
-        <input v-model="housePrice" type="text" id="house" ref="houses" maxlength="9" />
-        <span>{{priceToString(housePrice) + '원'}}</span>
+        <input v-model="housePrice" type="text" id="house" ref="houses" maxlength="9"  style="width:100px;"/>
+        <span>= {{priceToString(housePrice) + '원'}}</span>
       </div>
       <!-- <div>
         <input v-model="inputPrice" type="text">
@@ -56,13 +56,19 @@
         <input v-model="rendedPrice" type="text">
       </div> -->
       <div>
-        LTV(80%) = {{ priceToString(sum2) + '원'}}
+        <input type="radio" name="radioBtn" id="r1" @change="radioChange($event)" value="80" checked="checked">
+        <label for="r1" style="margin-right:5px;">ltv 80%</label>
+        <input type="radio" name="radioBtn" id="r2" @change="radioChange($event)" value="70">
+        <label for="r2">ltv 70%</label>
       </div>
       <div>
-        디딤돌2억 빼고 받아야할 보금자리론 = {{ housePrice === 0 ? '' : priceToString(result) + '원' }}
+        {{'LTV' + '(' + `${this.ltv === 0.8 ? '80%' : '70%'}` + ')'}} = {{ priceToString(sum2) + '원'}}
       </div>
       <div>
-        매물 대비 필요 현금 = {{ housePrice === 0 ? '' : '' + priceToString(truthPrice) + '원' }}
+        디딤돌2억 빼고 받아야할 보금자리론 = {{ housePrice > 0 ? priceToString(result) + '원' : 0 }}
+      </div>
+      <div>
+        매물 대비 필요 현금 = {{ housePrice === 0 ? '' : priceToString(truthPrice) + '원' }}
       </div>
     </div>
   </div>
@@ -108,7 +114,8 @@ export default {
       rendedPrice: 0,
       //실시간텍스트
       forbiddenText: '안되',
-      inputText: '오늘은 날씨가 좋습니다.'
+      inputText: '오늘은 날씨가 좋습니다.',
+      ltv: 0.8,
     };
   },
   components: {
@@ -165,7 +172,7 @@ export default {
     },
     //ltv
     sum2(){
-      return this.housePrice * 0.8;
+      return this.housePrice * this.ltv;
     },    
     result(){
       return this.sum2 - 200000000
@@ -186,7 +193,17 @@ export default {
     },
     priceToString(price) {
       return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    }
+    },
+    radioChange(event){
+      //var selected = event.target.value;
+      var selected = event.target.value;
+      console.log(selected)
+      if(Number(selected) === 80) {
+        this.ltv = 0.8
+      } else {
+        this.ltv = 0.7
+      }
+    },
   },
   mounted(){
     //인풋에 다이렉트로 콤마 세개 붙이기
