@@ -7,7 +7,7 @@
       </template>
       <h3>이부분은 어디에 들어갈까요?</h3>
       <template v-slot:footer>
-        <h1>Footer 를 정의합니다. 🦶🏻</h1>
+        <h1>Footer</h1>
       </template>
     </child-slot-component>
   </div>

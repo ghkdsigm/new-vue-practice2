@@ -102,6 +102,9 @@
         <v-tab>
           <router-link to="/sub32">upload</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub33">slider</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>

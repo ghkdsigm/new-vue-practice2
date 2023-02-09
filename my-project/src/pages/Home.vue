@@ -180,6 +180,10 @@ export default {
           content: 'upload',
           link: 'sub32',
         },
+        {
+          content: 'slider',
+          link: 'sub33',
+        },
       ],
       vueUrl: [
         {
