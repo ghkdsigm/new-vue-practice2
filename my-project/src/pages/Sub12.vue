@@ -46,7 +46,7 @@
       </div>
       <div>
         <label for="house">부동산 </label>
-        <input v-model="housePrice" type="text" id="house" ref="houses"/>
+        <input v-model="housePrice" type="text" id="house" ref="houses" maxlength="9" />
         <span>{{priceToString(housePrice) + '원'}}</span>
       </div>
       <!-- <div>
@@ -201,6 +201,9 @@ export default {
     //     input.value = formatValue;
     //   }
     // })
+    // if(this.housePrice >= 300000000){
+    //   alert('3억이 초과했습니다.')
+    // }
   }
 };
 </script>
