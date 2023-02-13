@@ -323,10 +323,10 @@ export default {
           type:'js',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '객체를 배열로, 배열을 객체로',
+          url: 'https://goddino.tistory.com/198',
           series: '',
-          type:'',
+          type:'js',
         },
         {
           title: 'test',
