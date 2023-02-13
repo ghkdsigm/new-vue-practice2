@@ -314,13 +314,13 @@ export default {
           title: '[Vue.js] 실시간 검색 구현하기 (버튼, 엔터 필요없다)',
           url: 'https://velog.io/@yeonsubaek/Vue.js-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EA%B2%80%EC%83%89-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-%EB%B2%84%ED%8A%BC-%EC%97%94%ED%84%B0-%ED%95%84%EC%9A%94%EC%97%86%EB%8B%A4',
           series: '',
-          type:'',
+          type:'etc',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'JavaScript - 배열을 객체로 변환, 4가지 방법',
+          url: 'https://codechacha.com/ko/javascript-convert-array-to-object/',
           series: '',
-          type:'',
+          type:'js',
         },
         {
           title: 'test',
