@@ -329,16 +329,16 @@ export default {
           type:'js',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '[ ESlint & Prettier ] 문법오류, 코드정리 도와주는 도구들',
+          url: 'https://im-designloper.tistory.com/25',
           series: '',
-          type:'',
+          type:'eslint',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '[Vue.js] ❗️TypeError: Cannot read property of undefined',
+          url: 'https://jess2.xyz/vue/data-undefined-error/',
           series: '',
-          type:'',
+          type:'vue',
         },
         {
           title: 'test',
