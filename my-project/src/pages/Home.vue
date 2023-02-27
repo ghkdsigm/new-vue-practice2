@@ -351,6 +351,24 @@ export default {
           type:'vue',
         },
         {
+          title: '로그인 시 user 정보 쿠키에 담기',
+          url: 'https://velog.io/@sdsdsrd/%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%8B%9C-user-%EC%A0%95%EB%B3%B4-%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8B%B4%EA%B8%B0',
+          series: '',
+          type:'vue',
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: '',
+          type:'',
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: '',
+          type:'',
+        },
+        {
           title: 'test',
           url: 'test',
           series: '',
