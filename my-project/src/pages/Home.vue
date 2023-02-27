@@ -341,10 +341,10 @@ export default {
           type:'vue',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'vue chartjs vue2 / vue3 예시',
+          url: 'https://vue-chartjs.org/examples/#vue-3-charts',
           series: '',
-          type:'',
+          type:'vue',
         },
         {
           title: 'test',
