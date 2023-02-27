@@ -369,10 +369,10 @@ export default {
           type:'vue',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'JWT 토큰을 통한 로그인 구현하기',
+          url: 'https://velog.io/@krungy/JWT-%ED%86%A0%ED%81%B0%EC%9D%84-%ED%86%B5%ED%95%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0',
           series: '',
-          type:'',
+          type:'vue',
         },
         {
           title: 'test',
