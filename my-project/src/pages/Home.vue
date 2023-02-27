@@ -357,10 +357,10 @@ export default {
           type:'vue',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '[VueJS] vue-cli + vuex + jwt 로그인 기능 구현하기',
+          url: 'https://minu0807.tistory.com/64',
           series: '',
-          type:'',
+          type:'vue',
         },
         {
           title: 'test',
