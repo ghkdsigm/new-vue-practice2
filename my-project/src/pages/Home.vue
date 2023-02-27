@@ -363,10 +363,10 @@ export default {
           type:'vue',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '[Vue.js] 로그인 Token 기반 인증 + js-cookie',
+          url: 'https://velog.io/@unknown89/Vue.js-%EB%A1%9C%EA%B7%B8%EC%9D%B8-Token-%EA%B8%B0%EB%B0%98-%EC%9D%B8%EC%A6%9D',
           series: '',
-          type:'',
+          type:'vue',
         },
         {
           title: 'test',
