@@ -188,6 +188,10 @@ export default {
           content: 'tree',
           link: 'sub34',
         },
+        {
+          content: 'chart.js',
+          link: 'sub36',
+        },
       ],
       vueUrl: [
         {

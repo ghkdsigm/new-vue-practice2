@@ -108,6 +108,9 @@
         <v-tab>
           <router-link to="/sub34">tree</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub36">chart</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>
