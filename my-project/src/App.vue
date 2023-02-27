@@ -1,4 +1,4 @@
-<template>
+BackToHome<template>
   <v-app>
     <v-app-bar app color="primary" dark>
       <Header />
@@ -8,8 +8,8 @@
       <router-view></router-view>
     </v-main>
 
-    <v-footer style="justify-content:center; padding:15px 0;" >
-      <BackToHome />
+    <v-footer v-if="this.$route.name !== this.routeHome" class="ftooer">
+      <BackToHome style="padding:10px 0;" ></BackToHome>
     </v-footer>
   </v-app>
 </template>
@@ -27,10 +27,13 @@ export default {
   },
   data: () => ({
     //
+    routeHome: "home"
   }),
 };
 </script>
 
 <style>
 .v-toolbar {max-width:auto;}
+.ftooer {justify-content:center;}
+.ftooer:hover {background-color: #ccc;}
 </style>
