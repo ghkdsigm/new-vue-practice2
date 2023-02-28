@@ -192,6 +192,10 @@ export default {
           content: 'chart.js',
           link: 'sub36',
         },
+        {
+          content: 'img upload',
+          link: 'sub37',
+        },
       ],
       vueUrl: [
         {

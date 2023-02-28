@@ -111,12 +111,39 @@
         <v-tab>
           <router-link to="/sub36">chart</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub37">imgupload</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  // watch로 라우터 변화 감지
+  data() {
+    return {
+    }
+  },
+  created() {
+   this.data(this.$route.name);
+  },
+  methods: {
+   data(index) {
+     console.log(index);
+   },
+  },
+  watch: {
+   $route(to, form) {
+     if (to.path !== form.path) {
+      this.data(this.$route.name);
+      // this.$route.push(`/${this.$route.name}`)
+     }
+   },
+  },
+}
+</script>
 
 <style>
 a {
