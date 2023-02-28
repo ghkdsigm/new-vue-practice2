@@ -63,6 +63,7 @@ export default {
       ],
       numbering: 0,
       numbering2: 0,
+      calRes: ''
     };
   },
   watch: {
