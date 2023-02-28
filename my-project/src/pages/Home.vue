@@ -375,6 +375,18 @@ export default {
           type:'vue',
         },
         {
+          title: 'Vue - Login 세션 유지하기',
+          url: 'https://kdinner.tistory.com/60',
+          series: '',
+          type:'vue',
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: '',
+          type:'',
+        },
+        {
           title: 'test',
           url: 'test',
           series: '',
