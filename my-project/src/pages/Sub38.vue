@@ -2,6 +2,7 @@
 <template>
   <div>
     <i class="fas fa-search">
+      <p>검색어를 입력하세요</p>
       <input v-model="skillInput" @input="submitAutoComplete" type="text" style="margin-bottom : 15px;" />
     </i>
     <div class="autocomplete disabled">
@@ -35,6 +36,7 @@ export default {
       } else {
         autocomplete.classList.add("disabled");
         this.result = null
+        this.skillInput = null
       }
     },
   }

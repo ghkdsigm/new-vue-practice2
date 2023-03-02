@@ -5,6 +5,12 @@ const skills = [
     "Algorithm",
     "신수지",
     "설인아",
-    "naver"
+    "naver",
+    "profile",
+    "body",
+    "center",
+    "umbrella",
+    "synergy",
+    "energy"
 ]
 export default skills
