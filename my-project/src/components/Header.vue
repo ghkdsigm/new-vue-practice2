@@ -117,6 +117,9 @@
         <v-tab>
           <router-link to="/sub38">input자동완성</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub39">무한스크롤</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>
