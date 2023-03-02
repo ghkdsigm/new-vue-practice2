@@ -114,6 +114,9 @@
         <v-tab>
           <router-link to="/sub37">imgupload</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub38">input자동완성</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>

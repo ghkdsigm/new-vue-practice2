@@ -196,6 +196,10 @@ export default {
           content: 'img upload',
           link: 'sub37',
         },
+        {
+          content: 'input 자동완성',
+          link: 'sub38',
+        },
       ],
       vueUrl: [
         {

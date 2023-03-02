@@ -42,6 +42,10 @@
       <span>{{ numbering2 }} </span>
       <span>{{ calRes }} </span>
     </div>
+    <div>
+      <span>{{ clickedcount }}{{ clickcountedset }}</span>
+      <button @click="clickcount">click</button>
+    </div>
   </div>
 </template>
 
@@ -63,7 +67,8 @@ export default {
       ],
       numbering: 0,
       numbering2: 0,
-      calRes: ''
+      calRes: '',
+      clickedcount: 0
     };
   },
   watch: {
@@ -79,6 +84,9 @@ export default {
     }
   },
   methods: {
+    clickcount() {
+      this.clickedcount++
+    },
     getAnswer() {
       this.bt = 'on';
     },
@@ -134,6 +142,14 @@ export default {
       }
 
       return calc()
+    },
+    // eslint-disable-next-line vue/return-in-computed-property
+    clickcountedset() {
+      if(this.clickedcount > 10) {
+        alert("10이 넘었어용")
+        // eslint-disable-next-line vue/no-side-effects-in-computed-properties
+        this.clickedcount = 10
+      }
     }
   },
   mounted(){
