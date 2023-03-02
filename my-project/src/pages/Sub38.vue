@@ -10,7 +10,9 @@
           style="cursor: pointer"
           v-for="(res,i) in result"
           :key="i"
-          >{{ res }}</div>
+          >{{ res }}
+          <span @click="putData(res)" style="border:1px solid #eee; color:#ccc;">putname</span>
+        </div>
     </div>
   </div>
 </template>
@@ -39,6 +41,12 @@ export default {
         this.skillInput = null
       }
     },
+    putData(res) {
+      if(res !== "") {
+        this.skillInput = res
+        this.result = null
+      }
+    }
   }
 }
 </script>
