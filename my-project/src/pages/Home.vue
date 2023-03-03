@@ -405,6 +405,12 @@ export default {
           type:'js',
         },
         {
+          title: '[JS] Javascript 스트링 메서드',
+          url: 'https://frontdev.tistory.com/entry/JS-Javascript-%EC%8A%A4%ED%8A%B8%EB%A7%81-%EB%A9%94%EC%84%9C%EB%93%9C?category=761561',
+          series: '',
+          type:'js',
+        },
+        {
           title: 'test',
           url: 'test',
           series: '',
