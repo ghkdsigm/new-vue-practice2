@@ -389,10 +389,16 @@ export default {
           type:'vue',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'JavaScript 기술을 향상시키는 12 가지 개념',
+          url: 'https://frontdev.tistory.com/entry/JavaScript-%EA%B8%B0%EC%88%A0%EC%9D%84-%ED%96%A5%EC%83%81%EC%8B%9C%ED%82%A4%EB%8A%94-12-%EA%B0%80%EC%A7%80-%EA%B0%9C%EB%85%90',
           series: '',
-          type:'',
+          type:'js',
+        },
+        {
+          title: '[javscript] 12가지 Array 팁',
+          url: 'https://frontdev.tistory.com/entry/javscript-12%EA%B0%80%EC%A7%80-Array-%ED%8C%81',
+          series: '',
+          type:'js',
         },
         {
           title: 'test',
