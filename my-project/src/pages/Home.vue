@@ -414,13 +414,13 @@ export default {
           title: '[JS] 📚 자바스크립트 클래스 문법 - 완벽 가이드',
           url: 'https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES6-Class-%EB%AC%B8%EB%B2%95-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC',
           series: '',
-          type:'',
+          type:'js',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '자바스크립트 클래스와 객체 총정리',
+          url: 'https://velog.io/@younoah/JS-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-%EA%B0%9D%EC%B2%B4-%EC%B4%9D%EC%A0%95%EB%A6%AC',
           series: '',
-          type:'',
+          type:'js',
         },
         {
           title: 'test',
