@@ -411,6 +411,30 @@ export default {
           type:'js',
         },
         {
+          title: '[JS] 📚 자바스크립트 클래스 문법 - 완벽 가이드',
+          url: 'https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES6-Class-%EB%AC%B8%EB%B2%95-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC',
+          series: '',
+          type:'',
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: '',
+          type:'',
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: '',
+          type:'',
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: '',
+          type:'',
+        },
+        {
           title: 'test',
           url: 'test',
           series: '',
