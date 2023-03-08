@@ -443,7 +443,7 @@ export default {
         {
           title: '알고리즘을 풀며 만난 자바스크립트 문법을 정리합니다',
           url: 'https://velog.io/@dev_cecy/series/Javascript',
-          series: '',
+          series: 'y',
           type:'js',
         },
         {
