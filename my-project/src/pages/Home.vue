@@ -447,10 +447,10 @@ export default {
           type:'js',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '자바스크립트 필수 문법 정리',
+          url: 'https://velog.io/@junu_ddi/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%95%84%EC%88%98-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC',
           series: '',
-          type:'',
+          type:'js',
         },
         {
           title: 'test',
