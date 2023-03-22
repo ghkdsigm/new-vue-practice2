@@ -453,16 +453,16 @@ export default {
           type:'js',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'JS 알고리즘 총정리',
+          url: 'https://velog.io/@nahyunbak/JS-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Math-%EA%B0%9D%EC%B2%B4',
           series: '',
-          type:'',
+          type:'js',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'JavaScript 알고리즘 문제 풀이 시 자주 사용되는 테크닉',
+          url: 'https://takeu.tistory.com/31',
           series: '',
-          type:'',
+          type:'js',
         },
         {
           title: 'test',
