@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
     <table>
@@ -18,7 +19,8 @@
 import data2 from "@/api/board.js"
   //골뱅이는 무조건 src부터 시작하게 해준다.
 export default {
-  name:'Read',
+  // eslint-disable-next-line vue/multi-word-component-names
+  name: 'Read',
   data(){
     return{
       data: data2,

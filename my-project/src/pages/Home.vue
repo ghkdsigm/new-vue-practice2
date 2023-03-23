@@ -204,6 +204,10 @@ export default {
           content: '무한스크롤',
           link: 'sub39',
         },
+        {
+          content: '토글',
+          link: 'sub40',
+        },
       ],
       vueUrl: [
         {
