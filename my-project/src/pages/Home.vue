@@ -469,6 +469,30 @@ export default {
           type:'js',
         },
         {
+          title: '[JavaScript] 페이지 처리, 페이징 처리, 페이지네이션',
+          url: 'https://mchch.tistory.com/140',
+          series: '',
+          type:'js',
+        },
+        {
+          title: 'Javascript Paging 구현하기(페이지구현)',
+          url: 'https://bourbonkk.tistory.com/70',
+          series: '',
+          type:'js',
+        },
+        {
+          title: '화면 깜빡임 없이 javascript(Ajax)로 페이징 처리하기',
+          url: 'https://pparkseona.tistory.com/entry/%ED%99%94%EB%A9%B4-%EA%B9%9C%EB%B9%A1%EC%9E%84-%EC%97%86%EC%9D%B4-javascriptAjax%EB%A1%9C-%ED%8E%98%EC%9D%B4%EC%A7%95-%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0',
+          series: '',
+          type:'js',
+        },
+        {
+          title: 'test',
+          url: 'test',
+          series: '',
+          type:'',
+        },
+        {
           title: 'test',
           url: 'test',
           series: '',

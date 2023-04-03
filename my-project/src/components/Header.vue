@@ -140,17 +140,29 @@ export default {
   },
   methods: {
    data(index) {
-     console.log(index);
+     console.log(this.$route);
    },
   },
   watch: {
    $route(to, form) {
      if (to.path !== form.path) {
-      this.data(this.$route.name);
+      this.data(this.$data);
       // this.$route.push(`/${this.$route.name}`)
      }
    },
   },
+  // computed: {
+  //   tab: {
+  //     set (tab) {
+  //       this.$router.replace({ query: { ...this.$route.query, tab } })
+  //       console.log("zz", this.$route.query)
+  //     },
+  //     get () {
+  //       console.log("zz", this.$route.query.tab)
+  //       return this.$route.query.tab
+  //     }
+  //   }
+  // }
 }
 </script>
 
