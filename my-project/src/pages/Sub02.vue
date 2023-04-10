@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
-    <PropsViewVue :people="people" :person-info="personInfoData" />
+    <PropsViewVue v-if="newpeople !== ''" :people="people" :person-info="personInfoData" :newpeople="newpeople" />
   </div>
 </template>
 
@@ -34,9 +34,29 @@ export default {
         id:1,
         name: '황승현',
         age: 24
-      }
+      },
+      roopdata:[
+        {name:'김씨', age: 34},
+        {name:'이씨', age: 23},
+        {name:'박씨', age: 12},
+        {name:'최씨', age: 45}        
+      ],
+      newpeople: []
     };
   },
+  mounted(){
+    this.$nextTick(()=>{
+      this.roop()
+    })
+    console.log('newpeople', this.newpeople)
+  },
+  methods:{
+    roop(){      
+      this.roopdata.forEach(v=>{
+        this.newpeople.push(v)
+      })
+    }     
+  }
 };
 </script>
 

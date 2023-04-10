@@ -18,16 +18,19 @@
       </table>      
     </div>
     <div>
-        <span>
-          {{personInfo.id}}
-        </span>
-        <span>
-          {{personInfo.name}}
-        </span>
-        <span>
-          {{personInfo.age}}
-        </span>
-      </div>
+      <span>
+        {{personInfo.id}}
+      </span>
+      <span>
+        {{personInfo.name}}
+      </span>
+      <span>
+        {{personInfo.age}}
+      </span>
+    </div>
+    <div v-for="(item,i) in newpeople" :key="i">
+      {{ item.name }}
+    </div>
   </div>
 </template>
 
@@ -35,7 +38,8 @@
 export default {
   props: {
     people: Array,
-    personInfo:Object
+    personInfo:Object,
+    newpeople: Array
   },
 };
 </script>

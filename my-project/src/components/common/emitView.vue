@@ -25,12 +25,28 @@ export default {
           age: 20,
         },
       ],
+      roopdata:[
+        {name:'김씨', age: 34},
+        {name:'이씨', age: 23},
+        {name:'박씨', age: 12},
+        {name:'최씨', age: 45}        
+      ],
+      newpeople: []
     };
+  },
+  mounted(){
+    this.roop()
+    this.$emit('newPeople', this.newpeople)
   },
   methods: {
     emitData() {
       this.$emit('updateData', this.people);
     },
+    roop(){      
+      this.roopdata.forEach(v=>{
+        this.newpeople.push(v)
+      })
+    } 
   },
 };
 </script>
