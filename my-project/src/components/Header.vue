@@ -123,6 +123,9 @@
         <v-tab>
           <router-link to="/sub40">토글</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub41">무한스크롤2</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>

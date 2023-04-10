@@ -19,7 +19,7 @@ export default {
     }
   },
   created () {
-    axios.get('http://sample.bmaster.kro.kr/contacts')
+    axios.get('https://sample.bmaster.kro.kr/contacts')
     .then(response => {
       this.pageArray = response.data.contacts;
       console.log(this.pageArray.length)

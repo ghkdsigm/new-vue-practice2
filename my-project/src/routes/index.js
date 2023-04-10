@@ -42,6 +42,7 @@ import Sub37 from '@/pages/Sub37';
 import Sub38 from '@/pages/Sub38';
 import Sub39 from '@/pages/Sub39';
 import Sub40 from '@/pages/Sub40';
+import Sub41 from '@/pages/Sub41';
 
 import UploadConfirm from '@/components/form/UploadConfirm';
 
@@ -263,6 +264,11 @@ const routes = [
     path: '/sub40',
     name: 'sub40',
     component: Sub40,
+  },
+  {
+    path: '/sub41',
+    name: 'sub41',
+    component: Sub41,
   },
 ];
 
