@@ -212,6 +212,10 @@ export default {
           content: '무한스크롤',
           link: 'sub41',
         },
+        {
+          content: '페이징2',
+          link: 'sub42',
+        },
       ],
       vueUrl: [
         {

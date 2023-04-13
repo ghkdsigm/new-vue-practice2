@@ -16,7 +16,8 @@ export default new Vuex.Store({
   state: {
     token: '',
     gamelist:'',
-    game:''
+    game:'',
+    lists:''
   },
   getters: {
     // isLogin(state) {
