@@ -503,10 +503,10 @@ export default {
           type:'js',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: '정규표현식(Regular Expression)',
+          url: 'https://poiemaweb.com/js-regexp',
           series: '',
-          type:'',
+          type:'js',
         },
         {
           title: 'test',
