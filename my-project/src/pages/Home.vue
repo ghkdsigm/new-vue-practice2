@@ -217,7 +217,7 @@ export default {
           link: 'sub40',
         },
         {
-          content: '무한스크롤',
+          content: 'VUE LIST CRUD, Pagination, Search',
           link: 'sub41',
         },
         {
@@ -551,10 +551,10 @@ export default {
           type:'js',
         },
         {
-          title: 'test',
-          url: 'test',
+          title: 'fontawesome vue 설치',
+          url: 'https://fontawesome.com/docs/web/use-with/vue/',
           series: '',
-          type:'',
+          type:'fontawesome',
         },
         {
           title: 'test',
