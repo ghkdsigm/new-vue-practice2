@@ -133,10 +133,6 @@ export default {
           link: 'sub18',
         },
         {
-          content: 'PAGING',
-          link: 'sub18',
-        },
-        {
           content: 'VUETIFYTABLE',
           link: 'sub19',
         },
