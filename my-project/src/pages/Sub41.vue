@@ -178,7 +178,7 @@ export default {
         listData: [],
         searchData: [],
         dataPerPage: 10,
-        curPageNum: 1,
+        curPageNum: 1, //페이징 넘버링
         curSelectIndex: 0,
 
         newData: {
@@ -205,12 +205,15 @@ export default {
       this.listData = testData
     },
     computed: {
+      // 페이징 시작 갯수
       startOffset() {
         return ((this.curPageNum - 1) * this.dataPerPage);
       },
+      // 페이징 종료 갯수
       endOffset() {
         return (this.startOffset + this.dataPerPage);
       },
+      // 페이징 한번에 보여주는 양
       numOfPages() {
         return Math.ceil(this.searchData.length / this.dataPerPage);
       },
