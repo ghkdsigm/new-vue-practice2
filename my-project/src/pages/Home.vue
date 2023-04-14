@@ -129,6 +129,18 @@ export default {
           link: 'sub17',
         },
         {
+          content: 'PAGING',
+          link: 'sub18',
+        },
+        {
+          content: 'PAGING',
+          link: 'sub18',
+        },
+        {
+          content: 'VUETIFYTABLE',
+          link: 'sub19',
+        },
+        {
           content: '쿠키/로컬스토리지',
           link: 'sub20',
         },

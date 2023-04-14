@@ -25,7 +25,7 @@
               <button type="button" class="page-link done" v-else> Previous </button>
             </li>
             <li class="page-item">
-              <button type="button" class="page-link" v-for="(pageNumber, i) in pages.slice(page-1, page+5)" :key="i" @click="page = pageNumber"> {{pageNumber}} </button>
+              <button type="button" class="page-link" v-for="(pageNumber, i) in pages.slice(page-1, page+5)" :key="i" @click="page = pageNumber" ref="pagenum"> {{pageNumber}} </button>
             </li>
             <li class="page-item">
               <button type="button" @click="page++" v-if="page < pages.length" class="page-link"> Next </button>
@@ -84,7 +84,8 @@ export default {
 			let page = this.page;
 			let perPage = this.perPage;
 			let from = (page * perPage) - perPage;
-			let to = (page * perPage);     
+			let to = (page * perPage);      
+      
 			return  posts.slice(from, to);
 		},    
     changepage(){
