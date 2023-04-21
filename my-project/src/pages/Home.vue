@@ -654,6 +654,18 @@ export default {
           type:'uml',
         },
         {
+          title: '배열 js splice mdn',
+          url: 'https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice',
+          series: '',
+          type:'js',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
           title: '',
           url: '',
           series: '',
