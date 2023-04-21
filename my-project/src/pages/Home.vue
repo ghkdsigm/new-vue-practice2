@@ -48,8 +48,8 @@
             <th>Link</th>
           </tr>
         </thead>
-        <tbody>
-          <tr v-for="(item, index) in vueUrl" :key="index" class="group-item">
+        <tbody v-if="!this.listempty">
+          <tr v-for="(item, index) in vueUrl" :key="index" class="group-item" ref="listlengt">
             <td>{{ index + 1 }}</td>
             <td style="font-size:12px">{{ item.type }}</td>
             <td>{{ item.title }}</td>
@@ -57,8 +57,13 @@
             <td>
               <a :href="item.url" target="_blank">바로가기</a>
             </td>
-          </tr>
+          </tr>          
         </tbody>
+        <tbody v-else>
+          <tr>
+            <td>검색결과가 존재하지않습니다.</td>
+          </tr>
+        </tbody>      
       </table>
     </div>
   </div>
@@ -607,6 +612,72 @@ export default {
           type:'vue',
         },
         {
+          title: '[Vue.js] Vue.js 실무 프로젝트에 적용하면 좋은 내용 정리',
+          url: 'https://jess2.xyz/vue/vue-tip/',
+          series: '',
+          type:'vue',
+        },
+        {
+          title: 'vue 대댓글 구현하기',
+          url: 'https://memi.dev/board/lecture/1602676082563',
+          series: '',
+          type:'vue',
+        },
+        {
+          title: 'Vue.js로 댓글창 만들기',
+          url: 'https://velog.io/@marryjane7474/Vue.js%EB%A1%9C-%EB%8C%93%EA%B8%80%EC%B0%BD-%EB%A7%8C%EB%93%A4%EA%B8%B0',
+          series: '',
+          type:'vue',
+        },
+        {
+          title: 'Vue.js 실무',
+          url: 'https://velog.io/@corner3499/series/Vue.js-%EC%8B%A4%EB%AC%B4',
+          series: '',
+          type:'vue',
+        },
+        {
+          title: 'JavaScript - 필수 개념 정리 ( 제로초 )',
+          url: 'https://hyg4196.tistory.com/113',
+          series: '',
+          type:'js',
+        },
+        {
+          title: '[Javascript] 2차원 배열 만들기',
+          url: 'https://velog.io/@favorcho/Javascript-2%EC%B0%A8%EC%9B%90-%EB%B0%B0%EC%97%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0',
+          series: '',
+          type:'js',
+        },
+        {
+          title: '개발자들의 의사소통을 위한 언어, UML 알아보기',
+          url: 'https://yozm.wishket.com/magazine/detail/629/',
+          series: '',
+          type:'uml',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
           title: '',
           url: '',
           series: '',
@@ -625,6 +696,7 @@ export default {
           type:'',
         },
       ],
+      listempty: false
     };
   },
   created(){
@@ -637,17 +709,18 @@ export default {
       for (let i = 0; i < len; i++) {
         if (
           this.searchres[i].title.includes(event.target.value) === false &&
-          this.searchres[i].type.includes(event.target.value) === false
-        ) {
-          document.querySelectorAll(".group-item")[i].style.display = "none";
-        } else {
+          this.searchres[i].type.includes(event.target.value) === false          
+        ) {          
+          let vm = document.querySelectorAll(".group-item")[i]
+          vm.style.display = "none";          
+        }  else {
           document.querySelectorAll(".group-item")[i].style.display = "table-row";
-          document.querySelector(".group-list").style.height = "fit-content"
+          document.querySelector(".group-list").style.height = "fit-content"          
         }
-      }
+      }      
     },
-  }
-};
+  },
+}
 </script>
 
 <style scoped>

@@ -124,7 +124,7 @@
           <router-link to="/sub40">토글</router-link>
         </v-tab>
         <v-tab>
-          <router-link to="/sub41">무한스크롤2</router-link>
+          <router-link to="/sub41">VUE LIST CRUD, Pagination, Search</router-link>
         </v-tab>
         <v-tab>
           <router-link to="/sub42">페이징2</router-link>
