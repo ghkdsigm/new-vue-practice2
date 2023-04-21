@@ -636,7 +636,8 @@ export default {
 
       for (let i = 0; i < len; i++) {
         if (
-          this.searchres[i].title.includes(event.target.value) === false
+          this.searchres[i].title.includes(event.target.value) === false &&
+          this.searchres[i].type.includes(event.target.value) === false
         ) {
           document.querySelectorAll(".group-item")[i].style.display = "none";
         } else {
