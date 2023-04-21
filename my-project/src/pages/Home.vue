@@ -1,53 +1,66 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div style="display: flex; width: 80%; margin: 0 auto">
-    <table class="lisTable">
-      <thead>
-        <tr>
-          <th>No</th>
-          <th>Contents</th>
-          <th>Link</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in vueData" :key="index">
-          <td>{{ index + 1 }}</td>
-          <td>{{ item.content }}</td>
-          <td>
-            <router-link :to="item.link">바로가기</router-link>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table class="lisTable">
-      <colgroup>
-        <col width="5%" />
-        <col width="8%" />
-        <col width="*" />
-        <col width="10%" />
-        <col width="10%" />
-      </colgroup>
-      <thead>
-        <tr>
-          <th>No</th>
-          <th>Type</th>
-          <th>Contents</th>
-          <th>시리즈여부</th>
-          <th>Link</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in vueUrl" :key="index">
-          <td>{{ index + 1 }}</td>
-          <td style="font-size:12px">{{ item.type }}</td>
-          <td>{{ item.title }}</td>
-          <td>{{ item.series !== '' ? 'Y' : 'N' }}</td>
-          <td>
-            <a :href="item.url" target="_blank">바로가기</a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <div>
+    <div style="display: flex; width: 80%; margin: 0 auto" class="searchwrap">
+      <div></div>
+      <div>
+        <input
+          class="search-input"
+          type="text"
+          placeholder="검색할 내용을 입력하세요"
+          @input="searchGroup($event)"
+        />
+      </div>      
+    </div>
+    <div style="display: flex; width: 80%; margin: 0 auto">
+      <table class="lisTable">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Contents</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(item, index) in vueData" :key="index">
+            <td>{{ index + 1 }}</td>
+            <td>{{ item.content }}</td>
+            <td>
+              <router-link :to="item.link">바로가기</router-link>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="lisTable group-list">
+        <colgroup>
+          <col width="5%" />
+          <col width="8%" />
+          <col width="*" />
+          <col width="10%" />
+          <col width="10%" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Type</th>
+            <th>Contents</th>
+            <th>시리즈여부</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(item, index) in vueUrl" :key="index" class="group-item">
+            <td>{{ index + 1 }}</td>
+            <td style="font-size:12px">{{ item.type }}</td>
+            <td>{{ item.title }}</td>
+            <td>{{ item.series !== '' ? 'Y' : 'N' }}</td>
+            <td>
+              <a :href="item.url" target="_blank">바로가기</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
@@ -55,6 +68,7 @@
 export default {
   data() {
     return {
+      searchres: '',
       vueData: [
         {
           content: '슬롯1',
@@ -613,12 +627,35 @@ export default {
       ],
     };
   },
+  created(){
+    this.searchres = this.vueUrl
+  },
+  methods:{
+    searchGroup(event) {
+      const len = this.searchres.length;
+
+      for (let i = 0; i < len; i++) {
+        if (
+          this.searchres[i].title.includes(event.target.value) === false
+        ) {
+          document.querySelectorAll(".group-item")[i].style.display = "none";
+        } else {
+          document.querySelectorAll(".group-item")[i].style.display = "table-row";
+          document.querySelector(".group-list").style.height = "fit-content"
+        }
+      }
+    },
+  }
 };
 </script>
 
 <style scoped>
 .lisTable:nth-child(1) {
   margin-right: 15px;
+  width:45%;
+}
+.lisTable:nth-child(2) {
+  flex:1;
 }
 .lisTable {
   /* width: 50%;
@@ -644,4 +681,15 @@ export default {
 a {
   color: rgb(71, 71, 131) !important;
 }
+.search-input {
+  display: block;
+  padding: 4px 10px;
+  margin: 0 auto;
+  width: 320px;
+  font-size: 13px;
+  border:1px solid #ccc;
+  border-radius: 15px;
+}
+.searchwrap > div:nth-of-type(1) {width:45%;}
+.searchwrap > div:nth-of-type(2) {flex: 1;}
 </style>
