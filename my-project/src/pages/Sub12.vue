@@ -70,6 +70,14 @@
       <div>
         매물 대비 필요 현금 = {{ housePrice === 0 ? '' : priceToString(truthPrice) + '원' }}
       </div>
+
+      <!--gpt-->
+      <div style="margin-top:25px;">
+        <h4>gpt가 알려준 사례</h4>
+        <input v-model="myData" @input="handleInput">
+        <p>입력된 값: {{ myData }}</p>
+        <p>새로 변경되는 값 {{ newmyData }}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -116,6 +124,8 @@ export default {
       forbiddenText: '안되',
       inputText: '오늘은 날씨가 좋습니다.',
       ltv: 0.8,
+      myData: 'initial value',
+      newmyData : ''
     };
   },
   components: {
@@ -138,6 +148,10 @@ export default {
         alert(this.forbiddenText + "는 입력할 수 없습니다.");
         this.inputText = this.inputText.substr(0,pos);
       }
+    },
+    myData(newValue, oldValue) {
+      // methods에 정의된 함수를 활용하여 데이터의 변화를 처리
+      this.handleInput(newValue, oldValue);
     }
   },
   computed: {
@@ -204,6 +218,13 @@ export default {
         this.ltv = 0.7
       }
     },
+    handleInput(newValue, oldValue) {
+      // 데이터의 변화를 감지하여 처리할 로직 작성
+      console.log('myData가 변경되었습니다. 새 값:', newValue, '이전 값:', oldValue);
+      this.newmyData = newValue
+      // 원하는 로직을 수행
+      // ...
+    }
   },
   mounted(){
     //인풋에 다이렉트로 콤마 세개 붙이기
