@@ -660,16 +660,16 @@ export default {
           type:'js',
         },
         {
-          title: '',
-          url: '',
+          title: '[jQuery] jQuery를 사용해 쿠키관리하기 (읽기, 생성, 삭제, 생명주기)',
+          url: 'https://dullyshin.github.io/2019/09/10/WEB-CookiesMakeDel/',
           series: '',
-          type:'',
+          type:'jquery',
         },
         {
-          title: '',
-          url: '',
+          title: 'jQuery-$.cookie 플러그인 사용법 (쿠키 활용편)',
+          url: 'https://lab.naminsik.com/1864',
           series: '',
-          type:'',
+          type:'jquery',
         },
         {
           title: '',
