@@ -672,10 +672,10 @@ export default {
           type:'jquery',
         },
         {
-          title: '',
-          url: '',
-          series: '',
-          type:'',
+          title: '[Vue.js] Vue3+Typescript #1 - Vue, TypeScript 사용하는 이유(Why Vue & TypeScript)',
+          url: 'https://hasudoki.tistory.com/entry/Vuejs-Vue3Typescript-1-Vue-TypeScript-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0Why-Vue-TypeScript',
+          series: 'y',
+          type:'vue3 + ts',
         },
         {
           title: '',
