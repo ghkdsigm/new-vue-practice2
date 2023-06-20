@@ -702,6 +702,18 @@ export default {
           type:'js',
         },
         {
+          title: '리액트의 Hooks 완벽 정복하기',
+          url: 'https://velog.io/@velopert/react-hooks',
+          series: '',
+          type:'react',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
           title: '',
           url: '',
           series: '',
