@@ -690,16 +690,16 @@ export default {
           type:'blog 참고용',
         },
         {
-          title: '',
-          url: '',
+          title: '[JavaScript] class란 무엇인가?',
+          url: 'https://velog.io/@jinyoung985/Javascript-class%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80',
           series: '',
-          type:'',
+          type:'js',
         },
         {
-          title: '',
-          url: '',
+          title: 'JavaScript 질문 프론트엔드 면접 질문 - JS 질문',
+          url: 'https://www.frontendinterviewhandbook.com/kr/javascript-questions',
           series: '',
-          type:'',
+          type:'js',
         },
         {
           title: '',
