@@ -720,10 +720,10 @@ export default {
           type:'algorithm',
         },
         {
-          title: '',
-          url: '',
+          title: 'JS 자료구조 & 알고리즘',
+          url: 'https://eunbae11.tistory.com/category/cs%EC%A7%80%EC%8B%9D/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0',
           series: '',
-          type:'',
+          type:'algorithm',
         },
         {
           title: '',
