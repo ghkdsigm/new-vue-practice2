@@ -714,6 +714,36 @@ export default {
           type:'algorithm',
         },
         {
+          title: 'JavaScript 알고리즘 및 자료 구조',
+          url: 'https://github.com/trekhleb/javascript-algorithms/blob/master/README.ko-KR.md',
+          series: '',
+          type:'algorithm',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
           title: '',
           url: '',
           series: '',
