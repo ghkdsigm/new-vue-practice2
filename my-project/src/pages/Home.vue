@@ -483,7 +483,7 @@ export default {
           title: '알고리즘을 풀며 만난 자바스크립트 문법을 정리합니다',
           url: 'https://velog.io/@dev_cecy/series/Javascript',
           series: 'y',
-          type:'js',
+          type:'algorithm',
         },
         {
           title: '자바스크립트 필수 문법 정리',
@@ -495,13 +495,13 @@ export default {
           title: 'JS 알고리즘 총정리',
           url: 'https://velog.io/@nahyunbak/JS-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Math-%EA%B0%9D%EC%B2%B4',
           series: '',
-          type:'js',
+          type:'algorithm',
         },
         {
           title: 'JavaScript 알고리즘 문제 풀이 시 자주 사용되는 테크닉',
           url: 'https://takeu.tistory.com/31',
           series: '',
-          type:'js',
+          type:'algorithm',
         },
         {
           title: '[JavaScript] 페이지 처리, 페이징 처리, 페이지네이션',
@@ -708,10 +708,10 @@ export default {
           type:'react',
         },
         {
-          title: '',
-          url: '',
+          title: '정렬 알고리즘(Sorting Algorithm) 정복하기 - with JS',
+          url: 'https://east-star.tistory.com/10',
           series: '',
-          type:'',
+          type:'algorithm',
         },
         {
           title: '',
