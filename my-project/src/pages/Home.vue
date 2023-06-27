@@ -726,10 +726,10 @@ export default {
           type:'algorithm',
         },
         {
-          title: '',
-          url: '',
+          title: '[JavaScript] Class(클래스), private(접근제어)',
+          url: 'https://cruella-de-vil.tistory.com/58',
           series: '',
-          type:'',
+          type:'js',
         },
         {
           title: '',
