@@ -744,10 +744,10 @@ export default {
           type:'node',
         },
         {
-          title: '',
-          url: '',
-          series: '',
-          type:'',
+          title: 'node.js로 CRUD api만들기 (express)',
+          url: 'https://sleepybird.tistory.com/142',
+          series: 'y',
+          type:'node',
         },
         {
           title: '',
