@@ -732,6 +732,36 @@ export default {
           type:'js',
         },
         {
+          title: 'Express.js(node.js) MySQL 연동 및 CRUD 작업',
+          url: 'https://codingcoding.tistory.com/449',
+          series: '',
+          type:'node',
+        },
+        {
+          title: '[NodeJS] NodeJs + Express.js + MySQL CRUD 연동',
+          url: 'https://acstory.tistory.com/383',
+          series: '',
+          type:'node',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type:'',
+        },
+        {
           title: '',
           url: '',
           series: '',
