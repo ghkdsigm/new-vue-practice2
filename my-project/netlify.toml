@@ -1,7 +1,7 @@
 [build]
   command = "CI= npm run build"
   functions = "functions" # netlify dev uses this directory to scaffold and serve your functions
-  publish = "dist"
+  publish = "publish"
 
 # note: each of these fields are OPTIONAL
 [dev]
