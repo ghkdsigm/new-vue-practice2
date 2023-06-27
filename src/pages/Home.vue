@@ -750,10 +750,10 @@ export default {
           type:'node',
         },
         {
-          title: '',
-          url: '',
-          series: '',
-          type:'',
+          title: '2. Node.js와 Express 라이브러리 설치하기.',
+          url: 'https://yayayahaha.tistory.com/12',
+          series: 'y',
+          type:'node',
         },
         {
           title: '',
