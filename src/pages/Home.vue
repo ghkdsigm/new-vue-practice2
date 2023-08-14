@@ -930,8 +930,8 @@ export default {
           type:'cs',
         },
         {
-          title: '',
-          url: '',
+          title: '프론트엔드 질문 정리 사이트',
+          url: 'https://frontend-interview-question.vercel.app/',
           series: '',
           type:'cs',
         },
