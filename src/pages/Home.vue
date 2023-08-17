@@ -251,6 +251,12 @@ export default {
       ],
       vueUrl: [
         {
+          title: '[완] Vue.js, 20개만 쓸 줄 알면 끝남',
+          url: 'https://velog.io/@nanotoly/Vue.js-20%EA%B0%9C%EB%A7%8C-%EC%93%B8-%EC%A4%84-%EC%95%8C%EB%A9%B4-%EB%81%9D%EB%82%A8',
+          series: '',
+          type: 'vue',
+        },
+        {
           title: 'moment.js 사용 방법',
           url: 'https://jsikim1.tistory.com/195',
           series: '',
@@ -981,6 +987,42 @@ export default {
         {
           title: 'VueJS vue-cli + vuex + jwt 로그인 기능 구현하기',
           url: 'https://minu0807.tistory.com/64',
+          series: '',
+          type: 'cs',
+        },
+        {
+          title: '클로저, 그리고 캡슐화와 은닉화',
+          url: 'https://meetup.nhncloud.com/posts/90',
+          series: '',
+          type: 'cs',
+        },
+        {
+          title: '인증 4가지 방법',
+          url: 'https://velog.io/@gusdnr814/%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%9D%B8%EC%A6%9D-4%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95',
+          series: '',
+          type: 'cs',
+        },
+        {
+          title: '프론트엔드 중요도별 정리',
+          url: 'https://github.com/Esoolgnah/Frontend-Interview-Questions',
+          series: '',
+          type: 'cs',
+        },
+        {
+          title: 'Reflow와 Repaint가 실행되는 시점',
+          url: 'https://github.com/Esoolgnah/Frontend-Interview-Questions/blob/main/Notes/important-5/reflow-repaint.md',
+          series: '',
+          type: 'cs',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: 'cs',
+        },
+        {
+          title: '',
+          url: '',
           series: '',
           type: 'cs',
         },
