@@ -985,6 +985,18 @@ export default {
           type: 'cs',
         },
         {
+          title: 'Closure',
+          url: 'https://poiemaweb.com/js-closure',
+          series: 'y',
+          type: 'cs',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: 'cs',
+        },
+        {
           title: '',
           url: '',
           series: '',
