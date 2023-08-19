@@ -1021,10 +1021,10 @@ export default {
           type: 'cs',
         },
         {
-          title: '',
-          url: '',
-          series: 'y',
-          type: 'cs',
+          title: 'TSTORY 프론트개발자 추천 블로그',
+          url: 'https://inpa.tistory.com/category',
+          series: '',
+          type: '블로그',
         },
         {
           title: '',
