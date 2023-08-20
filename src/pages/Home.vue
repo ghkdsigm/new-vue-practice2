@@ -1027,6 +1027,49 @@ export default {
           type: '블로그',
         },
         {
+          title: 'Javascript 자료구조 시리즈(2) Stack 스택',
+          url: 'https://intelloper.tistory.com/35',
+          series: 'y',
+          type: 'js',
+        },
+        {
+          title:
+            '[Javascript] 스택과 큐 직접 구현하기 (feat. 자료구조, ES6 Class, Node.js)',
+          url: 'https://aiday.tistory.com/125',
+          series: 'y',
+          type: 'js',
+        },
+        {
+          title: '',
+          url: '',
+          series: 'y',
+          type: 'cs',
+        },
+        {
+          title: '',
+          url: '',
+          series: 'y',
+          type: 'cs',
+        },
+        {
+          title: '',
+          url: '',
+          series: 'y',
+          type: 'cs',
+        },
+        {
+          title: '',
+          url: '',
+          series: 'y',
+          type: 'cs',
+        },
+        {
+          title: '',
+          url: '',
+          series: 'y',
+          type: 'cs',
+        },
+        {
           title: '',
           url: '',
           series: 'y',
@@ -1051,8 +1094,10 @@ export default {
 
       for (let i = 0; i < len; i++) {
         if (
-          this.searchres[i].title.includes(event.target.value) === false &&
-          this.searchres[i].type.includes(event.target.value) === false
+          this.searchres[i].title.toLowerCase().includes(event.target.value) ===
+            false &&
+          this.searchres[i].type.toLowerCase().includes(event.target.value) ===
+            false
         ) {
           let vm = document.querySelectorAll('.group-item')[i];
           vm.style.display = 'none';
