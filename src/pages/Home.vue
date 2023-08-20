@@ -1036,20 +1036,22 @@ export default {
           title:
             '[Javascript] 스택과 큐 직접 구현하기 (feat. 자료구조, ES6 Class, Node.js)',
           url: 'https://aiday.tistory.com/125',
-          series: 'y',
+          series: '',
           type: 'js',
         },
         {
-          title: '',
-          url: '',
-          series: 'y',
-          type: 'cs',
+          title:
+            '[Javascript] 자바스크립트에서 Class 사용하기-constructor, extends,...',
+          url: 'https://ordinary-code.tistory.com/22',
+          series: '',
+          type: 'js',
         },
         {
-          title: '',
-          url: '',
-          series: 'y',
-          type: 'cs',
+          title:
+            'FrontEnd/Javascript [JavaScript] 배열 메소드 map, filter 개념 및 예시 (배열 내 특정',
+          url: 'https://ordinary-code.tistory.com/8',
+          series: '',
+          type: 'js',
         },
         {
           title: '',
