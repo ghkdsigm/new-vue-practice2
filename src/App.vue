@@ -17,10 +17,13 @@ BackToHome<template>
 <script>
 import Header from './components/Header.vue';
 import BackToHome from './components/common/BackToHome.vue';
+import defualtMeta from '@/utils/meta';
 
 export default {
   name: 'App',
-
+  metaInfo: {
+    meta: defualtMeta,
+  },
   components: {
     Header,
     BackToHome

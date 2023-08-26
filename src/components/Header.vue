@@ -129,6 +129,15 @@
         <v-tab>
           <router-link to="/sub42">페이징2</router-link>
         </v-tab>
+        <v-tab>
+          <router-link to="/sub43">vue메타</router-link>
+        </v-tab>
+        <v-tab>
+          <router-link to="/sub44">10만건 데이터 처리</router-link>
+        </v-tab>
+        <v-tab>
+          <router-link to="/sub45">ag-grid</router-link>
+        </v-tab>
       </v-tabs>
     </v-card>
   </div>
