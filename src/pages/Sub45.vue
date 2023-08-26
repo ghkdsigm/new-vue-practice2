@@ -1,11 +1,11 @@
 <template>
   <ag-grid-vue
-    style="width: 100%; height: 100%"
-    class="ag-theme-alpine"
-    :columnDefs="columnDefs"
-    :rowData="rowData"
-  >
-  </ag-grid-vue>
+      style="width: 50%; margin:0 auto; height: 50%"
+      class="ag-theme-alpine"
+      :columnDefs="columnDefs"
+      :rowData="rowData"
+    >    
+  </ag-grid-vue>    
 </template>
 
 <script>
@@ -41,7 +41,7 @@ export default {
     // ];
 
     const vm = this;
-    for(let i=1; i<=100000; ++i) {
+    for(let i=1; i<=500000; ++i) {
       vm.rowData.push(
         {
           no: i,
@@ -51,7 +51,6 @@ export default {
         },
       )
     }
-
   },
 };
 </script>
