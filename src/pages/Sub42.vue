@@ -28,7 +28,7 @@
               <button type="button" class="page-link" v-for="(pageNumber, i) in pages.slice(page-1, page+5)" :key="i" @click="page = pageNumber" ref="pagenum"> {{pageNumber}} </button>
             </li>
             <li class="page-item">
-              <button type="button" @click="page++" v-if="page < pages.length" class="page-link"> Next </button>
+              <button type="button" @click="page++" v-if="`${page < pages.length}`" class="page-link"> Next </button>
               <button type="button" v-else class="page-link done"> Next </button>
             </li>
           </ul>
