@@ -1168,10 +1168,10 @@ export default {
           type: 'vue',
         },
         {
-          title: '',
-          url: '',
+          title: '시니어 개발자가 말하는, 프론트엔드 업무와 잘하는 프론트엔드 개발자란',
+          url: 'https://yozm.wishket.com/magazine/detail/1294/',
           series: '',
-          type: '',
+          type: 'frontend',
         },
         {
           title: '',
