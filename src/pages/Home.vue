@@ -1180,6 +1180,48 @@ export default {
           type: 'frontend',
         },
         {
+          title: '[NuxtJS] asyncData와 fetch 비교 및 사용법',
+          url: 'https://mine-it-record.tistory.com/681',
+          series: 'y',
+          type: 'nuxt',
+        },
+        {
+          title: 'Nuxt-asyncData와-fetch의-차이',
+          url: 'https://velog.io/@chaerin00/Nuxt-asyncData%EC%99%80-fetch%EC%9D%98-%EC%B0%A8%EC%9D%B4',
+          series: '',
+          type: 'nuxt',
+        },
+        {
+          title: 'Nuxt.js asyncData vs Fetch',
+          url: 'https://day0404.tistory.com/18',
+          series: '',
+          type: 'nuxt',
+        },
+        {
+          title: 'Nuxt 공부 - asyncData, fetch',
+          url: 'https://velog.io/@leeyw2709/Nuxt-%EA%B3%B5%EB%B6%80-asyncData-fetch',
+          series: '',
+          type: 'nuxt',
+        },
+        {
+          title: '[Nuxt.js] Nuxt 학습기 - (1) 개념 및 설치',
+          url: 'https://abangpa1ace.tistory.com/entry/Nuxtjs-Nuxt-%ED%95%99%EC%8A%B5%EA%B8%B0-1-%EA%B0%9C%EB%85%90-%EB%B0%8F-%EC%84%A4%EC%B9%98-%EC%9E%91%EC%84%B1%EC%A4%91',
+          series: 'y',
+          type: 'nuxt',
+        },
+        {
+          title: '[Nuxt.js] Nuxt 학습기 - (4) Store, asyncData & fetch',
+          url: 'https://abangpa1ace.tistory.com/entry/Nuxtjs-Nuxt-%ED%95%99%EC%8A%B5%EA%B8%B0-4-Store-asyncDate-fetch',
+          series: 'y',
+          type: 'nuxt',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: '',
+        },
+        {
           title: '',
           url: '',
           series: '',
