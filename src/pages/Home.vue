@@ -1228,6 +1228,24 @@ export default {
           type: 'jwt',
         },
         {
+          title: 'Vee-Validate 사용법(in Nuxt)',
+          url: 'https://heewon26.tistory.com/259',
+          series: '',
+          type: 'nuxt',
+        },
+        {
+          title: 'Nuxt.js에서 VeeValidate 사용하기',
+          url: 'https://velog.io/@simzipark/Nuxt.js%EC%97%90%EC%84%9C-VeeValidate-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0',
+          series: '',
+          type: 'nuxt',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: '',
+        },
+        {
           title: '',
           url: '',
           series: '',
