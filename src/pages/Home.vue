@@ -1216,16 +1216,16 @@ export default {
           type: 'nuxt',
         },
         {
-          title: '',
-          url: '',
+          title: '프론트 엔드에서 JWT: AccessToken, RefreshToken 다루기',
+          url: 'https://velog.io/@badahertz52/%ED%94%84%EB%A1%A0%ED%8A%B8-%EC%97%94%EB%93%9C%EC%97%90%EC%84%9C-JWT-AccessToken-RefreshToken-%EB%8B%A4%EB%A3%A8%EA%B8%B0',
           series: '',
-          type: '',
+          type: 'jwt',
         },
         {
-          title: '',
-          url: '',
+          title: 'JWT Authentication with Nuxt',
+          url: 'https://www.factorial.io/en/blog/jwt-authentication-nuxt',
           series: '',
-          type: '',
+          type: 'jwt',
         },
         {
           title: '',
