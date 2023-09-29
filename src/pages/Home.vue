@@ -1240,6 +1240,24 @@ export default {
           type: 'nuxt',
         },
         {
+          title: 'Nuxt.js Simple-Vue-Validator',
+          url: 'https://velog.io/@corner3499/Nuxt.js-Simple-Vue-Validator',
+          series: '',
+          type: 'nuxt',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: '',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: '',
+        },
+        {
           title: '',
           url: '',
           series: '',
