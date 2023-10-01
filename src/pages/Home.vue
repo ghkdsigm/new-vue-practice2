@@ -1246,10 +1246,10 @@ export default {
           type: 'nuxt',
         },
         {
-          title: '',
-          url: '',
+          title: '[CSS] text-overflow: ellipsis 두줄 이상 처리',
+          url: 'https://velog.io/@syoung125/CSS-text-overflow-ellipsis-%EB%91%90%EC%A4%84-%EC%9D%B4%EC%83%81-%EC%B2%98%EB%A6%AC',
           series: '',
-          type: '',
+          type: 'css',
         },
         {
           title: '',
