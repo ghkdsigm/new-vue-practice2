@@ -1252,10 +1252,10 @@ export default {
           type: 'css',
         },
         {
-          title: '',
-          url: '',
+          title: '동적으로 vue 컴포넌트 선언하기',
+          url: 'https://become-a-developer.tistory.com/entry/%EB%8F%99%EC%A0%81%EC%9C%BC%EB%A1%9C-vue-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%84%A0%EC%96%B8%ED%95%98%EA%B8%B0',
           series: '',
-          type: '',
+          type: 'vue',
         },
         {
           title: '',
