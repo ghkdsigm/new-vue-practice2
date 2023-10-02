@@ -1258,6 +1258,42 @@ export default {
           type: 'vue',
         },
         {
+          title: '컴포넌트 간에 동적으로 전환될 때, 컴포넌트 인스턴스를 조건부로 캐시할 수 있는 빌트인 컴포넌트',
+          url: 'https://ko.vuejs.org/guide/built-ins/keep-alive.html#basic-usage',
+          series: '',
+          type: 'vue',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: '',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: '',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: '',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: '',
+        },
+        {
+          title: '',
+          url: '',
+          series: '',
+          type: '',
+        },
+        {
           title: '',
           url: '',
           series: '',
