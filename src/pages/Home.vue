@@ -1288,16 +1288,16 @@ export default {
           type: 'vue',
         },
         {
-          title: '',
+          title: 'accesstoken 복호화',
           url: 'https://jsfiddle.net/aend5yo9/12/',
           series: '',
-          type: '',
+          type: 'js',
         },
         {
-          title: '',
-          url: '',
+          title: '[Javascript] map, reduce, filter를 유용하게 활용하는 15가지 방법',
+          url: 'https://dongmin-jang.medium.com/javascript-15%EA%B0%80%EC%A7%80-%EC%9C%A0%EC%9A%A9%ED%95%9C-map-reduce-filter-bfbc74f0debd',
           series: '',
-          type: '',
+          type: 'js',
         },
         {
           title: '',
