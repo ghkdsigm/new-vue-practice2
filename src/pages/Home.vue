@@ -1300,10 +1300,10 @@ export default {
           type: 'js',
         },
         {
-          title: '',
-          url: '',
+          title: '[Vue] Vue시작(2) -Vue 인스턴스 속성, 컴포넌트 등록',
+          url: 'https://velog.io/@kwonh/Vue-Vue%EC%8B%9C%EC%9E%912-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-webpack',
           series: '',
-          type: '',
+          type: 'vue',
         },
         {
           title: '',
